@@ -1,7 +1,7 @@
 const fetch = require("isomorphic-fetch");
 const { formatResults } = require("./serialize");
 
-const outputFile = "results-20200626.json";
+const outputFile = "results.json";
 
 const fetchPage = (page) =>
   fetch("https://api2.realtor.ca/Listing.svc/PropertySearch_Post", {
