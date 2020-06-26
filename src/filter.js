@@ -23,8 +23,14 @@ const filters = [
 const filterResults = (results) => {
   console.log("before", results.length);
 
+  const ids = [];
+
   const filtered = results
-    .filter((result) => !filters.some((test) => test(result)))
+    .filter((result) => {
+      if (ids.includes(result.Id)) return false;
+      ids.push(result.Id);
+      return !filters.some((test) => test(result));
+    })
     .sort((a, b) => a.Id.localeCompare(b.Id));
 
   console.log("after", filtered.length);
