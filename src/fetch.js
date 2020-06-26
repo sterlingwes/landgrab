@@ -2,7 +2,7 @@ const fs = require("fs");
 const fetch = require("isomorphic-fetch");
 const { filterResults } = require("./filter");
 
-const outputFile = "results-20200625.json";
+const outputFile = "results-20200626.json";
 
 const fetchPage = (page) =>
   fetch("https://api2.realtor.ca/Listing.svc/PropertySearch_Post", {
@@ -33,7 +33,7 @@ const formatItem = (item) => `${JSON.stringify(item)},\n`;
 
 const finish = (exitCode) => {
   console.log(`Finished on page ${currentPage} of ${totalPages}`);
-  const formatted = filterResults(results).map(formatItem).join();
+  const formatted = filterResults(results).map(formatItem).join("");
   fs.writeFileSync(outputFile, `[\n${formatted}\n]`);
   process.exit(exitCode);
 };
