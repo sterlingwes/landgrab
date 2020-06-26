@@ -1,6 +1,5 @@
-const fs = require("fs");
 const fetch = require("isomorphic-fetch");
-const { filterResults } = require("./filter");
+const { formatResults } = require("./serialize");
 
 const outputFile = "results-20200626.json";
 
@@ -29,12 +28,9 @@ let results = [];
 let currentPage = 0;
 let totalPages = "unknown";
 
-const formatItem = (item) => `${JSON.stringify(item)},\n`;
-
 const finish = (exitCode) => {
   console.log(`Finished on page ${currentPage} of ${totalPages}`);
-  const formatted = filterResults(results).map(formatItem).join("");
-  fs.writeFileSync(outputFile, `[\n${formatted}\n]`);
+  formatResults(outputFile, results);
   process.exit(exitCode);
 };
 
