@@ -30,7 +30,11 @@ let totalPages = "unknown";
 
 const finish = (exitCode) => {
   console.log(`Finished on page ${currentPage} of ${totalPages}`);
-  formatResults(outputFile, results);
+  if (exitCode === 0) {
+    formatResults(outputFile, results);
+  } else {
+    console.log("not writing results.json with failed fetch run:", results);
+  }
   process.exit(exitCode);
 };
 
