@@ -33,7 +33,7 @@ const formatItem = (item) => `${JSON.stringify(item)},\n`;
 
 const finish = (exitCode) => {
   console.log(`Finished on page ${currentPage} of ${totalPages}`);
-  const formatted = filterResults(results).map(formatItem);
+  const formatted = filterResults(results).map(formatItem).join();
   fs.writeFileSync(outputFile, `[\n${formatted}\n]`);
   process.exit(exitCode);
 };
@@ -66,7 +66,7 @@ const nextPage = () => {
       if (currentPage < totalPages) {
         nextPage();
       } else {
-        finish(1);
+        finish(0);
       }
     });
 };
