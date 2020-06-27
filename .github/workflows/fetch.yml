@@ -6,7 +6,7 @@ on:
     - cron: "35 14 * * *"
 
 jobs:
-  build:
+  fetch:
     runs-on: ubuntu-latest
 
     steps:

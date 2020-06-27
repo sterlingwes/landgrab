@@ -1,6 +1,13 @@
+const outputFile = process.argv.pop();
+const inputFile = process.argv.pop();
+if (!inputFile || !outputFile) {
+  throw new Error(
+    "Must provide an input & output file path to the results JSON to parse"
+  );
+}
+
 const { getDistance } = require("geolib");
-const file = "./results-20200625.json";
-const results = require(file);
+const results = require(inputFile);
 
 const coords = {
   Toronto: {
@@ -138,14 +145,14 @@ const shrinkResult = (result) => {
   };
 };
 
-const slimResults = filtered.map(shrinkResult).sort((a, b) => {
+const slimResults = results.map(shrinkResult).sort((a, b) => {
   if (!a[ppa] && !b[ppa]) return 0;
   if (!a[ppa]) return 1;
   if (!b[ppa]) return 1;
   return a[ppa] - b[ppa];
 });
 
-require("fs").writeFileSync(`${file}-slim`, JSON.stringify(slimResults));
+require("fs").writeFileSync(outputFile, JSON.stringify(slimResults));
 
 // ====
 // range stats follow

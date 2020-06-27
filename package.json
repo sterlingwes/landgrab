@@ -5,7 +5,12 @@
   "license": "MIT",
   "scripts": {
     "fetch": "node --insecure-http-parser --http-parser=legacy ./src/fetch",
-    "refilter": "node ./src/refilter"
+    "refilter": "node ./src/refilter",
+    "augment": "node ./src/augment ../results.json src/site/augmented-listings.json",
+    "dev": "parcel src/site/index.html",
+    "build": "parcel build src/site/index.html",
+    "dev-listing": "parcel src/site/listings.html",
+    "build-listing": "parcel build src/site/listings.html"
   },
   "dependencies": {
     "geolib": "^3.3.1",
@@ -13,5 +18,8 @@
   },
   "engines": {
     "node": "<=11"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
   }
 }
