@@ -71,4 +71,8 @@ const nextPage = () => {
     });
 };
 
-nextPage();
+nextPage().catch((err) => {
+  console.log("Failed to fetch");
+  console.log(err);
+  process.exit(1);
+});
