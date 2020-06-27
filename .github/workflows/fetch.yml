@@ -6,7 +6,7 @@ on:
     - cron: "35 14 * * *"
 
 jobs:
-  fetch:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -35,10 +35,25 @@ jobs:
       - name: Do the fetch
         run: yarn fetch
 
+      - name: Add date to index
+        run: yarn add-date
+
       - name: Add & Commit
         uses: EndBug/add-and-commit@v4.2.0
         with:
-          add: "results.json"
+          add: "results.json src/site/fetch-index.json"
           message: "add latest landgrab"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Augment results for listings page
+        run: yarn augment
+
+      - name: Produce listing page
+        run: yarn build-listing
+
+      - uses: sterlingwes/gh-pages-deploy-action@v1.1
+        with:
+          access-token: ${{ secrets.GITHUB_TOKEN }}
+          source-directory: dist
+          build-command: yarn build
