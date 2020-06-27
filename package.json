@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "fetch": "node --insecure-http-parser ./src/fetch",
+    "fetch": "node --insecure-http-parser --http-parser=legacy ./src/fetch",
     "refilter": "node ./src/refilter"
   },
   "dependencies": {
