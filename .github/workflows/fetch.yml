@@ -3,7 +3,7 @@ name: Fetch & filter
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: "22 3 * * *"
+    - cron: "45 2 * * *"
 
 jobs:
   build:
@@ -39,21 +39,21 @@ jobs:
         run: yarn add-date
 
       - name: Produce index page
-        run: yarn build
+        run: yarn build --public-url https://swj.io/landgrab
 
       - name: Augment results for listings page
         run: yarn augment
 
       - name: Produce listing page
-        run: yarn build-listing --out-file $(date +%Y-%m-%d).html
+        run: yarn build-listing --public-url https://swj.io/landgrab --out-file $(date +%Y-%m-%d).html
 
       - name: Add & Commit
         uses: EndBug/add-and-commit@v4.2.0
         with:
-          add: "results.json src/site/fetch-index.json"
+          add: "results.json src/site/fetch-index.json dist"
           message: "add latest landgrab"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy
-        run:
+        run: yarn deploy
