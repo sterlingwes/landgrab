@@ -12,7 +12,7 @@
     "dev-listing": "parcel src/site/listings.html",
     "build-listing": "parcel build src/site/listings.html",
     "add-date": "node ./src/add-date",
-    "rebuild": "rm dist/* && yarn build --public-url https://swj.io/landgrab && yarn augment && yarn build --public-url https://swj.io/landgrab && yarn build-listing --public-url https://swj.io/landgrab --out-file $(date +%Y-%m-%d).html",
+    "rebuild": "rm dist/* && yarn augment && yarn build --public-url https://swj.io/landgrab && yarn build-listing --public-url https://swj.io/landgrab --out-file $(date +%Y-%m-%d).html",
     "deploy": "./manual-deploy.sh"
   },
   "dependencies": {
