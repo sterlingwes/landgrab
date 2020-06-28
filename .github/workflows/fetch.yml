@@ -3,7 +3,7 @@ name: Fetch & filter
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: "45 2 * * *"
+    - cron: "16 3 * * *"
 
 jobs:
   build:
@@ -56,4 +56,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy
-        run: yarn deploy
+        run: |
+          git checkout gh-pages
+          git checkout master
+          yarn deploy
