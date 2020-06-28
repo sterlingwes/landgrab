@@ -1,6 +1,5 @@
 node_modules/
 .cache/
-dist/
 tmp/
 raw-results/
 src/site/augmented-listings.json
