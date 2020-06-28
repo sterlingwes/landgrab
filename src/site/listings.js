@@ -36,10 +36,6 @@ const createListingDiv = (listing) => {
   price.className = "listing-price";
   price.innerText = listing.Property.Price;
 
-  const acres = el("span");
-  acres.className = "listing-acres";
-  acres.innerText = Math.round(listing.Acreage / 100) * 100;
-
   const distances = el("ul");
   const closeCities = Object.entries(listing.Distances);
   if (closeCities.length) {
@@ -55,12 +51,12 @@ const createListingDiv = (listing) => {
   const ppa = listing["Price per acre"];
   if (ppa) {
     const ppaRound = formatCurrency(Math.round(ppa * 100) / 100);
-    price.innerText += ` (${ppaRound} per acre)`;
+    const acres = Math.round(listing.Acreage * 10) / 10;
+    price.innerText += ` (${acres}ac, ${ppaRound} per acre)`;
   }
 
   header.appendChild(h2);
   header.appendChild(price);
-  header.appendChild(acres);
   header.appendChild(distances);
 
   const description = el("p");
