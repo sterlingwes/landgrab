@@ -3,4 +3,4 @@ module.exports=[{date:"2020-06-27"}];
 },{}],"Focm":[function(require,module,exports) {
 var e=require("./fetch-index.json"),n=document.getElementById("days"),t=function(e){var t=document.createElement("li"),a=document.createElement("a");a.href="".concat(e,".html"),a.innerText=e,t.appendChild(a),n.appendChild(t)};e.forEach(function(e){return t(e.date)});
 },{"./fetch-index.json":"mXrw"}]},{},["Focm"], null)
-//# sourceMappingURL=/site.a6731fb8.js.map
+//# sourceMappingURL=https://swj.io/landgrab/site.a6731fb8.js.map
