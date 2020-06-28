@@ -71,14 +71,18 @@ const Description = ({ children }) => (
 
 const Images = ({ images }) => (
   <div>
-    {images.map((img) => (
-      <img style="width: 256px; height: 200px;" />
-    ))}
+    {!!images[0] && (
+      <img
+        data-src={images[0].LowResPath}
+        style="width: 256px; height: 200px;"
+      />
+    )}
   </div>
 );
 
-const Card = ({ children }) => (
+const Card = ({ className, children }) => (
   <div
+    className={className}
     style={{
       position: "relative",
       margin: 20,
@@ -106,6 +110,16 @@ const ListingId = ({ children }) => (
   </div>
 );
 
+const priceRanges = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+
+const priceClassPrefix = "listing-price";
+
+const priceToRangeClass = (price) => {
+  const priceValue = parseFloat(price.replace(/[^0-9.]/g, ""));
+  const nearest10 = Math.floor(priceValue / 10000) * 10 + 10;
+  return `${priceClassPrefix}-${nearest10}`;
+};
+
 const Listing = ({
   Property: {
     Address: { AddressText, Latitude: lat, Longitude: lon },
@@ -121,8 +135,10 @@ const Listing = ({
   const ppa = rest["Price per acre"];
   const detailUrl = rest["Detail URL"];
   const [address, location] = AddressText.split("|");
+  const priceRangeClass = priceToRangeClass(price);
+
   return (
-    <Card>
+    <Card className={priceRangeClass}>
       <Header>{address}</Header>
       {!!location && <SubHeader>{location}</SubHeader>}
       <SplitLayout>
@@ -131,8 +147,10 @@ const Listing = ({
           <Price price={price} ppa={ppa} acreage={acreage} />
           <CloseCities distances={distances} />
           <Description>{description}</Description>
-          <div>
-            <a href={detailUrl}>Listing Detail</a>
+          <div style={{ paddingTop: 10 }}>
+            <a href={detailUrl} style={{ marginRight: 10 }}>
+              Listing Detail
+            </a>
             <a href={`https://www.google.ca/maps/@${lat},${lon},10z`}>
               Google Maps
             </a>
@@ -144,8 +162,51 @@ const Listing = ({
   );
 };
 
+const allRangesExcept = (rangeId) =>
+  priceRanges
+    .filter((range) => range !== rangeId)
+    .map((range) => `.${priceClassPrefix}-${range}`)
+    .join(", ");
+
+const onFilterPrice = function (rangeId) {
+  return function handler() {
+    const classes = allRangesExcept(rangeId);
+    document.querySelectorAll(classes).forEach((listing) => {
+      listing.style.opacity = 0.2;
+    });
+    document
+      .querySelectorAll(`.${priceClassPrefix}-${rangeId}`)
+      .forEach((listing) => {
+        listing.style.opacity = 1;
+      });
+  };
+};
+
+const allPriceRanges = priceRanges
+  .map((range) => `.${priceClassPrefix}-${range}`)
+  .join(", ");
+
+const showAll = () => {
+  document.querySelectorAll(allPriceRanges).forEach((listing) => {
+    listing.style.opacity = 1;
+  });
+};
+
+const FilterButtons = () => (
+  <div style={{ padding: 20, paddingBottom: 0 }}>
+    {priceRanges.map((rangeId) =>
+      rangeId >= 100 ? (
+        <button onClick={showAll}>{"<=100k (All)"}</button>
+      ) : (
+        <button onClick={onFilterPrice(rangeId)}>{`<$${rangeId}k`}</button>
+      )
+    )}
+  </div>
+);
+
 const container = (
   <div>
+    <FilterButtons />
     {listings.map((listing) => (
       <Listing {...listing} />
     ))}
@@ -153,3 +214,34 @@ const container = (
 );
 
 mount(container);
+
+const debounce = (func, wait = 50, immediate = true) => {
+  var timeout;
+  return function () {
+    var context = this,
+      args = arguments;
+    var later = function () {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    };
+    var callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (callNow) func.apply(context, args);
+  };
+};
+
+const eagerDistance = 200;
+const lazyLoad = () => {
+  console.log("lazyLoading images");
+  document.querySelectorAll("img").forEach((img, i) => {
+    const threshold = window.innerHeight + window.pageYOffset + eagerDistance;
+    const shouldLoad = img.offsetParent.offsetTop < threshold;
+    if (!img.src && shouldLoad) {
+      img.src = img.dataset.src;
+    }
+  });
+};
+
+window.addEventListener("scroll", debounce(lazyLoad));
+window.addEventListener("resize", debounce(lazyLoad));
