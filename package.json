@@ -23,6 +23,9 @@
     "node": "<=11"
   },
   "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-transform-react-jsx": "^7.10.3",
     "parcel-bundler": "^1.12.4"
   }
 }
