@@ -38,7 +38,7 @@ const createListingDiv = (listing) => {
 
   const acres = el("span");
   acres.className = "listing-acres";
-  acres.innerText = listing.Acreage;
+  acres.innerText = Math.round(listing.Acreage / 100) * 100;
 
   const distances = el("ul");
   const closeCities = Object.entries(listing.Distances);
@@ -60,6 +60,7 @@ const createListingDiv = (listing) => {
 
   header.appendChild(h2);
   header.appendChild(price);
+  header.appendChild(acres);
   header.appendChild(distances);
 
   const description = el("p");

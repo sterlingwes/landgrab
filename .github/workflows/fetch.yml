@@ -3,7 +3,7 @@ name: Fetch & filter
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: "22 2 * * *"
+    - cron: "22 3 * * *"
 
 jobs:
   build:
@@ -38,6 +38,9 @@ jobs:
       - name: Add date to index
         run: yarn add-date
 
+      - name: Produce index page
+        run: yarn build
+
       - name: Augment results for listings page
         run: yarn augment
 
@@ -52,8 +55,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: sterlingwes/gh-pages-deploy-action@v1.1
-        with:
-          access-token: ${{ secrets.DEPLOY_TOKEN }}
-          source-directory: dist
-          build-command: yarn build
+      - name: Deploy
+        run:

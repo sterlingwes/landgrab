@@ -11,7 +11,8 @@
     "build": "parcel build src/site/index.html",
     "dev-listing": "parcel src/site/listings.html",
     "build-listing": "parcel build src/site/listings.html",
-    "add-date": "node ./src/add-date"
+    "add-date": "node ./src/add-date",
+    "rebuild": "rm dist/* && yarn augment && yarn build && yarn build-listing --out-file $(date +%Y-%m-%d).html"
   },
   "dependencies": {
     "geolib": "^3.3.1",
