@@ -66,10 +66,19 @@ const createListingDiv = (listing) => {
   const detailLink = el("a");
   detailLink.href = listing["Detail URL"];
   detailLink.innerText = "View Listing";
+  detailLink.className = "listing-detaillink";
+
+  const mapsLink = el("a");
+  mapsLink.className = "listing-maplink";
+  const lat = listing.Property.Address.Latitude;
+  const lon = listing.Property.Address.Longitude;
+  mapsLink.href = `https://www.google.ca/maps/@${lat},${lon},10z`;
 
   div.appendChild(imageContainer);
   div.appendChild(header);
   div.appendChild(description);
+  div.appendChild(detailLink);
+  div.appendChild(mapsLink);
 
   return div;
 };
