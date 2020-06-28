@@ -54,6 +54,6 @@ jobs:
 
       - uses: sterlingwes/gh-pages-deploy-action@v1.1
         with:
-          access-token: ${{ secrets.GITHUB_TOKEN }}
+          access-token: ${{ secrets.DEPLOY_TOKEN }}
           source-directory: dist
           build-command: yarn build
