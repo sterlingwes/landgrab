@@ -1,5 +1,7 @@
 const fetches = require("./fetch-index.json");
 
+fetches.reverse();
+
 const dayList = document.getElementById("days");
 
 const addItem = (date) => {
