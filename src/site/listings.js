@@ -82,7 +82,7 @@ const Images = ({ images }) => (
 
 const Card = ({ className, children }) => (
   <div
-    className={className}
+    className={`listing ${className}`}
     style={{
       position: "relative",
       margin: 20,
@@ -116,7 +116,10 @@ const priceClassPrefix = "listing-price";
 
 const priceToRangeClass = (price) => {
   const priceValue = parseFloat(price.replace(/[^0-9.]/g, ""));
-  const nearest10 = Math.floor(priceValue / 10000) * 10 + 10;
+  let nearest10 = Math.floor(priceValue / 10000) * 10 + 10;
+  if (nearest10 > 100) {
+    nearest10 = 100;
+  }
   return `${priceClassPrefix}-${nearest10}`;
 };
 
@@ -170,14 +173,15 @@ const allRangesExcept = (rangeId) =>
 
 const onFilterPrice = function (rangeId) {
   return function handler() {
+    lazyLoad();
     const classes = allRangesExcept(rangeId);
     document.querySelectorAll(classes).forEach((listing) => {
-      listing.style.opacity = 0.2;
+      listing.classList.add("filtered");
     });
     document
       .querySelectorAll(`.${priceClassPrefix}-${rangeId}`)
       .forEach((listing) => {
-        listing.style.opacity = 1;
+        listing.classList.remove("filtered");
       });
   };
 };
@@ -231,13 +235,24 @@ const debounce = (func, wait = 50, immediate = true) => {
   };
 };
 
+const containerNotHidden = (img) => {
+  const container = img.parentNode.parentNode.parentNode;
+  if (!container) return true;
+
+  if (container.classList.contains("filtered")) {
+    return false;
+  }
+
+  return true;
+};
+
 const eagerDistance = 200;
 const lazyLoad = () => {
   console.log("lazyLoading images");
   document.querySelectorAll("img").forEach((img, i) => {
     const threshold = window.innerHeight + window.pageYOffset + eagerDistance;
     const shouldLoad = img.offsetParent.offsetTop < threshold;
-    if (!img.src && shouldLoad) {
+    if (containerNotHidden(img) && !img.src && shouldLoad) {
       img.src = img.dataset.src;
     }
   });
