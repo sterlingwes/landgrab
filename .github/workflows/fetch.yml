@@ -35,6 +35,12 @@ jobs:
       - name: Do the fetch
         run: yarn fetch
 
+      - name: Diff changes
+        run: git diff HEAD~ HEAD -- results.json > results-change-diff
+
+      - name: Generate change stats
+        run: yarn diff-stat
+
       - name: Add date to index
         run: yarn add-date
 

@@ -17,7 +17,9 @@ if (lastAdded.date === date) {
   process.exit(0);
 }
 
-index.push({ date });
+const changeStats = require("../results-changes.json");
+
+index.push({ date, changeStats });
 
 const content = JSON.stringify(index, null, 2);
 require("fs").writeFileSync("src/site/fetch-index.json", content);
