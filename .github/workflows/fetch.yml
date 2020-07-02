@@ -3,7 +3,7 @@ name: Fetch & filter
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: "30 12 * * *"
+    - cron: "45 11 * * *"
 
 jobs:
   build:
@@ -32,8 +32,8 @@ jobs:
       - name: Install node_modules
         run: yarn install
 
-      # - name: Do the fetch
-      #   run: yarn fetch
+      - name: Do the fetch
+        run: yarn fetch
 
       - name: Add date to index
         run: yarn add-date
