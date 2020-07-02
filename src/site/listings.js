@@ -171,6 +171,17 @@ const allRangesExcept = (rangeId) =>
     .map((range) => `.${priceClassPrefix}-${range}`)
     .join(", ");
 
+let filteredList = [];
+
+const visibleMargin = 20;
+
+const nextVisible = () =>
+  filteredList.find(
+    (el) =>
+      el.offsetTop >=
+      window.innerHeight + window.pageYOffset - visibleMargin * 2
+  );
+
 const onFilterPrice = function (rangeId) {
   return function handler() {
     lazyLoad();
@@ -183,6 +194,12 @@ const onFilterPrice = function (rangeId) {
       .forEach((listing) => {
         listing.classList.remove("filtered");
       });
+
+    filteredList = Array.from(document.querySelectorAll(".listing")).filter(
+      (el) => el.classList.contains("filtered") === false
+    );
+
+    document.querySelector(".scroll-next").style.display = "inline-block";
   };
 };
 
@@ -194,6 +211,8 @@ const showAll = () => {
   document.querySelectorAll(allPriceRanges).forEach((listing) => {
     listing.style.opacity = 1;
   });
+
+  document.querySelector(".scroll-next").style.display = "none";
 };
 
 const FilterButtons = () => (
@@ -208,12 +227,41 @@ const FilterButtons = () => (
   </div>
 );
 
+const onScrollNext = () => {
+  const next = nextVisible();
+  if (next) {
+    window.scrollTo({
+      top: next.offsetTop - visibleMargin,
+      behavior: "smooth",
+    });
+  }
+};
+
+const ScrollButtons = () => (
+  <div style={{ position: "fixed", bottom: 10, right: 10 }}>
+    <div
+      className="scroll-btn scroll-top"
+      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+    >
+      ⬆️ Top
+    </div>
+    <div
+      className="scroll-btn scroll-next"
+      style={{ display: "none" }}
+      onClick={onScrollNext}
+    >
+      ⏩ Next
+    </div>
+  </div>
+);
+
 const container = (
   <div>
     <FilterButtons />
     {listings.map((listing) => (
       <Listing {...listing} />
     ))}
+    <ScrollButtons />
   </div>
 );
 
