@@ -3,3 +3,5 @@ node_modules/
 tmp/
 raw-results/
 src/site/augmented-listings.json
+test-tmp/
+test-bundle.js
