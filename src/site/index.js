@@ -13,7 +13,8 @@ const addItem = ({ date, changeStats }) => {
   const li = document.createElement("li");
   const link = document.createElement("a");
   link.href = date;
-  link.innerText = `${date} ${summarizeChanges(changeStats)}`;
+  const changes = summarizeChanges(changeStats);
+  link.innerText = `${date} ${changes || ""}`;
   li.appendChild(link);
   dayList.appendChild(li);
 };
