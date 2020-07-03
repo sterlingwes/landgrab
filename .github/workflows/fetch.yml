@@ -3,7 +3,7 @@ name: Fetch & filter
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: "15 12 * * *"
+    - cron: "40 12 * * *"
 
 jobs:
   build:
@@ -37,8 +37,8 @@ jobs:
       - name: Do the fetch
         run: yarn fetch
 
-      - name: Diff changes
-        run: git diff HEAD~ HEAD -- results.json > results-change-diff
+      - name: Diff working results.json changes
+        run: git diff HEAD:results.json results.json > results-change-diff
 
       - name: Generate change stats
         run: yarn diff-stat
