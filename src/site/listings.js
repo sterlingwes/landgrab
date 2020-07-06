@@ -209,7 +209,7 @@ const allPriceRanges = priceRanges
 
 const showAll = () => {
   document.querySelectorAll(allPriceRanges).forEach((listing) => {
-    listing.style.opacity = 1;
+    listing.classList.remove("filtered");
   });
 
   document.querySelector(".scroll-next").style.display = "none";
@@ -258,8 +258,8 @@ const ScrollButtons = () => (
 const container = (
   <div>
     <FilterButtons />
-    {listings.map((listing) => (
-      <Listing {...listing} />
+    {listings.map((listing, index) => (
+      <Listing key={index} {...listing} />
     ))}
     <ScrollButtons />
   </div>
