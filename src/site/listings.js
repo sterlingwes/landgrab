@@ -151,10 +151,13 @@ const Listing = ({
           <CloseCities distances={distances} />
           <Description>{description}</Description>
           <div style={{ paddingTop: 10 }}>
-            <a href={detailUrl} style={{ marginRight: 10 }}>
+            <a href={detailUrl} style={{ marginRight: 10 }} target="_blank">
               Listing Detail
             </a>
-            <a href={`https://www.google.ca/maps/@${lat},${lon},10z`}>
+            <a
+              href={`https://www.google.ca/maps/@${lat},${lon},14z/data=!3m1!1e3`}
+              target="_blank"
+            >
               Google Maps
             </a>
           </div>
