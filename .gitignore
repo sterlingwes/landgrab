@@ -5,3 +5,5 @@ raw-results/
 src/site/augmented-listings.json
 test-tmp/
 test-bundle.js
+.yalc/
+yalc.lock
