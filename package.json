@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "geolib": "^3.3.1",
+    "html-miner": "^3.0.0",
     "isomorphic-fetch": "^2.2.1"
   },
   "engines": {

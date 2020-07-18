@@ -1,5 +1,10 @@
 const fetch = require("isomorphic-fetch");
 const { formatResults } = require("./serialize");
+const {
+  checkInternet,
+  saveResult,
+  persistResults,
+} = require("./check-internet");
 
 const outputFile = "results.json";
 
@@ -40,8 +45,26 @@ const finish = (exitCode) => {
 
 const wait = () => new Promise((resolve) => setTimeout(resolve, delay));
 
+const filterByInternet = async (results) => {
+  return results.map(async (chain, result) => {
+    const { AddressText } = (result.Property || {}).Address || {};
+    if (!AddressText) {
+      return chain.then((results) => [...results, result]);
+    }
+
+    const internetTypes = await checkInternet(AddressText);
+    if (internetTypes && internetTypes.length) {
+      saveResult(AddressText, internetTypes);
+      return chain.then((results) => [...results, results]);
+    }
+
+    return chain;
+  }, Promise.resolve([]));
+};
+
 const addResults = (response) => {
-  return response.json().then((json) => {
+  return response.json().then(async (json) => {
+    const resultsWithInternet = await filterByInternet(json.Results);
     results = [...results, ...json.Results];
     totalPages = json.Paging.TotalPages;
   });
@@ -66,6 +89,7 @@ const nextPage = () => {
       if (currentPage < totalPages) {
         nextPage();
       } else {
+        persistResults();
         finish(0);
       }
     });

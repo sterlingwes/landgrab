@@ -3,7 +3,7 @@ name: Fetch & filter
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: "0 10 * * *"
+    - cron: "10 18 * * *"
 
 jobs:
   build:
@@ -55,7 +55,7 @@ jobs:
       - name: Add & Commit
         uses: EndBug/add-and-commit@v4.2.0
         with:
-          add: "results.json src/site/fetch-index.json dist"
+          add: "results.json src/site/fetch-index.json dist src/internet-tracking.json"
           message: "add latest landgrab"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
