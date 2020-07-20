@@ -34,11 +34,9 @@ const fetchDetail = (url) =>
     })
     .then((result) => {
       if (!result || !result._each_) return;
-      console.log(
-        result._each_.filter(
-          (internetType) =>
-            excludableInternetTypes.includes(internetType) === false
-        )
+      return result._each_.filter(
+        (internetType) =>
+          excludableInternetTypes.includes(internetType) === false
       );
     });
 
