@@ -65,7 +65,7 @@ const filterByInternet = async (results) => {
 const addResults = (response) => {
   return response.json().then(async (json) => {
     const resultsWithInternet = await filterByInternet(json.Results);
-    results = [...results, ...json.Results];
+    results = [...results, ...resultsWithInternet];
     totalPages = json.Paging.TotalPages;
   });
 };
