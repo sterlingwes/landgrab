@@ -45,17 +45,17 @@ const finish = (exitCode) => {
 
 const wait = () => new Promise((resolve) => setTimeout(resolve, delay));
 
-const filterByInternet = async (results) => {
-  return results.reduce(async (chain, result) => {
+const filterByInternet = async (rawResults) => {
+  return rawResults.reduce(async (chain, result) => {
     const { AddressText } = (result.Property || {}).Address || {};
     if (!AddressText) {
-      return chain.then((results) => [...results, result]);
+      return chain.then((chainResults) => [...chainResults, result]);
     }
 
     const internetTypes = await checkInternet(AddressText);
     if (internetTypes && internetTypes.length) {
       saveResult(AddressText, internetTypes);
-      return chain.then((results) => [...results, results]);
+      return chain.then((chainResults) => [...chainResults, result]);
     }
 
     return chain;
