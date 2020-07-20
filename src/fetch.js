@@ -46,7 +46,7 @@ const finish = (exitCode) => {
 const wait = () => new Promise((resolve) => setTimeout(resolve, delay));
 
 const filterByInternet = async (results) => {
-  return results.map(async (chain, result) => {
+  return results.reduce(async (chain, result) => {
     const { AddressText } = (result.Property || {}).Address || {};
     if (!AddressText) {
       return chain.then((results) => [...results, result]);
