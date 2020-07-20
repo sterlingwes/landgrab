@@ -17,6 +17,7 @@ const excludableInternetTypes = [
   "DSL",
   "Mobile Wireless",
   "Satellite",
+  "High Capacity Transport Services",
 ];
 
 const fetchDetail = (url) =>

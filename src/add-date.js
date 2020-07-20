@@ -13,8 +13,8 @@ const date = `${today.getFullYear()}-${month}-${day}`;
 
 const lastAdded = index.slice(0).pop();
 if (lastAdded.date === date) {
-  console.log(`not writing existing date: ${date}`);
-  process.exit(0);
+  console.log(`overwriting existing date: ${date}`);
+  index.pop();
 }
 
 const changeStats = require("../results-changes.json");
