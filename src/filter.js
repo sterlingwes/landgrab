@@ -12,6 +12,11 @@ const boatAccess = (result) =>
   /within minutes of the ferry/i.test(result.PublicRemarks);
 const timeShare = (result) => /per year/i.test(result.PublicRemarks);
 const fractional = (result) => /fractional/i.test(result.PublicRemarks);
+const island = (r) => /Howe Island/i.test(r.PublicRemarks);
+const fixedWeek = (r) => /fixed week/i.test(r.PublicRemarks);
+const gEstates = (r) => /Gibraltar Estates/i.test(r.PublicRemarks);
+const bEstates = (r) => /Brecken Ridge Estates/i.test(r.PublicRemarks);
+const contractor = (r) => /contractor/i.test(r.PublicRemarks);
 
 const filters = [
   industrialRemarks,
@@ -22,6 +27,11 @@ const filters = [
   boatAccess,
   timeShare,
   fractional,
+  island,
+  fixedWeek,
+  gEstates,
+  bEstates,
+  contractor,
 ];
 
 const filterResults = (results) => {
