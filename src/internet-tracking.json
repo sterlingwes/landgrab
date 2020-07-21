@@ -347,10 +347,8 @@
     "High Capacity Transport Services"
   ],
   "4378 HIGHWAY 7|Norwood, Ontario K0L2V0": [
-    "High Capacity Transport Services",
     "Coaxial Cable",
-    "Fibre to the home",
-    "High Capacity Transport Services"
+    "Fibre to the home"
   ],
   "GRENVILLE STREET|Southampton, Ontario N0H2L0": [
     "Coaxial Cable",
@@ -572,23 +570,20 @@
   ],
   "103 Hineman ST|Kingston, Ontario K7L4V3": [
     "Fibre to the home",
-    "High Capacity Transport Services"
+    "Coaxial Cable"
   ],
   "107 Hineman ST|Kingston, Ontario K7L4V3": [
     "Fibre to the home",
-    "High Capacity Transport Services",
     "Coaxial Cable"
   ],
   "244 Mann DR|Kingston, Ontario K7L4V3": [
-    "Fibre to the home",
-    "High Capacity Transport Services"
+    "Fibre to the home"
   ],
   "375 SHARPE LINE|Cavan-Monaghan, Ontario K9J0G5": [
     "Fibre to the home"
   ],
   "111 Hineman ST|Kingston, Ontario K7L4V3": [
     "Fibre to the home",
-    "High Capacity Transport Services",
     "Coaxial Cable"
   ],
   "236 Mann DR|Kingston, Ontario K7L4V3": [
@@ -599,7 +594,6 @@
   ],
   "123 Hineman ST|Kingston, Ontario K7L4V3": [
     "Fibre to the home",
-    "High Capacity Transport Services",
     "Coaxial Cable"
   ],
   "37 MILLER STREET|Parry Sound, Ontario P2A1S9": [
@@ -616,7 +610,6 @@
     "Coaxial Cable"
   ],
   "718 57 12th Conc Road E|Flamborough, Ontario L0R1K0": [
-    "High Capacity Transport Services",
     "Coaxial Cable"
   ],
   "PT LT 31 DORCAS BAY ROAD|Northern Bruce Peninsula, Ontario N0H2R0": [
@@ -775,9 +768,7 @@
     "Coaxial Cable"
   ],
   "6342 PLANK ROAD|Vienna, Ontario N0J1Z0": [
-    "High Capacity Transport Services",
-    "Coaxial Cable",
-    "High Capacity Transport Services"
+    "Coaxial Cable"
   ],
   "2220 VENTNOR ROAD|Spencerville, Ontario K0E1X0": [
     "High Capacity Transport Services"
@@ -863,8 +854,6 @@
   ],
   "22 Rue Martel|#202|Gatineau (Aylmer), Quebec J8V3V6": [
     "Fibre to the home",
-    "High Capacity Transport Services",
-    "High Capacity Transport Services",
     "Coaxial Cable"
   ],
   "55 SPRING STREET|Norwood, Ontario K0L2V0": [
@@ -887,7 +876,6 @@
     "Coaxial Cable"
   ],
   "ACROSS FROM 137 STINSON BLOCK ROAD|Consecon, Ontario K0K1T0": [
-    "High Capacity Transport Services",
     "Coaxial Cable"
   ],
   "0 Westbrook RD|Kingston, Ontario K7P2Y7": [
@@ -910,11 +898,9 @@
   ],
   "14 HILL ROAD|Quinte West, Ontario K8V5P4": [
     "Fibre to the home",
-    "High Capacity Transport Services",
     "Coaxial Cable"
   ],
   "6 CRAWFORD Street|Walkerton, Ontario N0G2V0": [
-    "High Capacity Transport Services",
     "Coaxial Cable",
     "Fibre to the home"
   ],
@@ -937,6 +923,40 @@
   "44 GROEGER ROAD|Huntsville, Ontario P1H2J4": [
     "Fibre to the home",
     "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "PT 98 BAXTER ROAD|Trent Hills, Ontario K0L1Y0": [
+    "No Local Access"
+  ],
+  "57 Varty Lake RD|Stone Mills, Ontario K0K3N0": [
+    "Coaxial Cable"
+  ],
+  "HWY 49|Sophiasburgh, Ontario K0K2T0": [
+    "Coaxial Cable"
+  ],
+  "9774 LAKE ROAD|Kettle Point, Ontario N0N1J1": [
+    "No Local Access"
+  ],
+  "COUNTY ROAD 35|Campbellford, Ontario K0L1L0": [
+    "Coaxial Cable"
+  ],
+  "900 BIG ISLAND|Huntsville, Ontario P1H2J2": [
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "264 COUNTY 16 RD|Stone Mills, Ontario K7R3L2": [
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "18351 GLEN ROAD|South Glengarry, Ontario K0C2J0": [
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "3580 Burbrook RD|Kingston, Ontario K7P2Y8": [
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "0 COUNTY ROAD 9|GREATER NAPANEE, Ontario K7R3K8": [
     "Coaxial Cable"
   ]
 }
