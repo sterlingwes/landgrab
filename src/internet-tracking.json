@@ -569,8 +569,7 @@
     "High Capacity Transport Services"
   ],
   "103 Hineman ST|Kingston, Ontario K7L4V3": [
-    "Fibre to the home",
-    "Coaxial Cable"
+    "Fibre to the home"
   ],
   "107 Hineman ST|Kingston, Ontario K7L4V3": [
     "Fibre to the home",
@@ -957,6 +956,14 @@
     "Coaxial Cable"
   ],
   "0 COUNTY ROAD 9|GREATER NAPANEE, Ontario K7R3K8": [
+    "Coaxial Cable"
+  ],
+  "890 BIG ISLAND|Huntsville, Ontario P1H2J2": [
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "840 BIG ISLAND|Huntsville, Ontario P1H2J2": [
+    "Fibre to the home",
     "Coaxial Cable"
   ]
 }
