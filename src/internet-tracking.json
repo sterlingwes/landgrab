@@ -569,7 +569,8 @@
     "High Capacity Transport Services"
   ],
   "103 Hineman ST|Kingston, Ontario K7L4V3": [
-    "Fibre to the home"
+    "Fibre to the home",
+    "Coaxial Cable"
   ],
   "107 Hineman ST|Kingston, Ontario K7L4V3": [
     "Fibre to the home",
@@ -965,5 +966,16 @@
   "840 BIG ISLAND|Huntsville, Ontario P1H2J2": [
     "Fibre to the home",
     "Coaxial Cable"
+  ],
+  "BOBCAYGEON ROAD|Minden, Ontario K0M2K0": [
+    "Fibre to the home"
+  ],
+  "HIGHWAY 49|Sophiasburgh, Ontario K0K2T0": [
+    "Coaxial Cable",
+    "Fibre to the home"
+  ],
+  "PT LT 18 CONCESSION ROAD A|Meaford, Ontario N0H1B0": [
+    "Coaxial Cable",
+    "Fibre to the home"
   ]
 }
