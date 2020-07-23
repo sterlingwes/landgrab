@@ -6,8 +6,6 @@ const mount = (rootElement) => {
   container.appendChild(rootElement);
 };
 
-const el = (elementName) => document.createElement(elementName);
-
 const currencyFormatter = Intl.NumberFormat("en-CA", {
   style: "currency",
   currency: "CAD",
@@ -110,19 +108,6 @@ const ListingId = ({ children }) => (
   </div>
 );
 
-const priceRanges = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
-
-const priceClassPrefix = "listing-price";
-
-const priceToRangeClass = (price) => {
-  const priceValue = parseFloat(price.replace(/[^0-9.]/g, ""));
-  let nearest10 = Math.floor(priceValue / 10000) * 10 + 10;
-  if (nearest10 > 100) {
-    nearest10 = 100;
-  }
-  return `${priceClassPrefix}-${nearest10}`;
-};
-
 const Listing = ({
   Property: {
     Address: { AddressText, Latitude: lat, Longitude: lon },
@@ -138,10 +123,9 @@ const Listing = ({
   const ppa = rest["Price per acre"];
   const detailUrl = rest["Detail URL"];
   const [address, location] = AddressText.split("|");
-  const priceRangeClass = priceToRangeClass(price);
 
   return (
-    <Card className={priceRangeClass}>
+    <Card>
       <Header>{address}</Header>
       {!!location && <SubHeader>{location}</SubHeader>}
       <SplitLayout>
@@ -168,78 +152,6 @@ const Listing = ({
   );
 };
 
-const allRangesExcept = (rangeId) =>
-  priceRanges
-    .filter((range) => range !== rangeId)
-    .map((range) => `.${priceClassPrefix}-${range}`)
-    .join(", ");
-
-let filteredList = [];
-
-const visibleMargin = 20;
-
-const nextVisible = () =>
-  filteredList.find(
-    (el) =>
-      el.offsetTop >=
-      window.innerHeight + window.pageYOffset - visibleMargin * 2
-  );
-
-const onFilterPrice = function (rangeId) {
-  return function handler() {
-    lazyLoad();
-    const classes = allRangesExcept(rangeId);
-    document.querySelectorAll(classes).forEach((listing) => {
-      listing.classList.add("filtered");
-    });
-    document
-      .querySelectorAll(`.${priceClassPrefix}-${rangeId}`)
-      .forEach((listing) => {
-        listing.classList.remove("filtered");
-      });
-
-    filteredList = Array.from(document.querySelectorAll(".listing")).filter(
-      (el) => el.classList.contains("filtered") === false
-    );
-
-    document.querySelector(".scroll-next").style.display = "inline-block";
-  };
-};
-
-const allPriceRanges = priceRanges
-  .map((range) => `.${priceClassPrefix}-${range}`)
-  .join(", ");
-
-const showAll = () => {
-  document.querySelectorAll(allPriceRanges).forEach((listing) => {
-    listing.style.opacity = 1;
-  });
-
-  document.querySelector(".scroll-next").style.display = "none";
-};
-
-const FilterButtons = () => (
-  <div style={{ padding: 20, paddingBottom: 0 }}>
-    {priceRanges.map((rangeId) =>
-      rangeId >= 100 ? (
-        <button onClick={showAll}>{"<=100k (All)"}</button>
-      ) : (
-        <button onClick={onFilterPrice(rangeId)}>{`<$${rangeId}k`}</button>
-      )
-    )}
-  </div>
-);
-
-const onScrollNext = () => {
-  const next = nextVisible();
-  if (next) {
-    window.scrollTo({
-      top: next.offsetTop - visibleMargin,
-      behavior: "smooth",
-    });
-  }
-};
-
 const ScrollButtons = () => (
   <div style={{ position: "fixed", bottom: 10, right: 10 }}>
     <div
@@ -248,19 +160,11 @@ const ScrollButtons = () => (
     >
       ⬆️ Top
     </div>
-    <div
-      className="scroll-btn scroll-next"
-      style={{ display: "none" }}
-      onClick={onScrollNext}
-    >
-      ⏩ Next
-    </div>
   </div>
 );
 
 const container = (
   <div>
-    <FilterButtons />
     {listings.map((listing) => (
       <Listing {...listing} />
     ))}
