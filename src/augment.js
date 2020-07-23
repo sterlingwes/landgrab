@@ -146,10 +146,10 @@ const shrinkResult = (result) => {
 };
 
 const slimResults = results.map(shrinkResult).sort((a, b) => {
-  if (!a[ppa] && !b[ppa]) return 0;
-  if (!a[ppa]) return 1;
-  if (!b[ppa]) return 1;
-  return a[ppa] - b[ppa];
+  if (!a.Price && !b.Price) return 0;
+  if (!a.Price) return 1;
+  if (!b.Price) return 1;
+  return a.Price - b.Price;
 });
 
 require("fs").writeFileSync(outputFile, JSON.stringify(slimResults));
