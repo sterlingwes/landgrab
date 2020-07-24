@@ -17,6 +17,15 @@ const fixedWeek = (r) => /fixed week/i.test(r.PublicRemarks);
 const gEstates = (r) => /Gibraltar Estates/i.test(r.PublicRemarks);
 const bEstates = (r) => /Brecken Ridge Estates/i.test(r.PublicRemarks);
 const contractor = (r) => /contractor/i.test(r.PublicRemarks);
+const noHydro = (r) => /no hydro/i.test(r.PublicRemarks);
+const specificRegex = new RegExp('(' + [
+  22084675, // Seguin trees
+  22294537, // marmora subdivision trees angle
+  21731796, // marmora trees
+  41930662, // Howe Island
+  21925098, // Seguin next to commercial
+].join('|') + ')', 'i');
+const specific = (r) => specificRegex.test(r.PublicRemarks);
 
 const filters = [
   industrialRemarks,
@@ -32,6 +41,8 @@ const filters = [
   gEstates,
   bEstates,
   contractor,
+  noHydro,
+  specific
 ];
 
 const filterResults = (results) => {
