@@ -957,6 +957,7 @@
     "Coaxial Cable"
   ],
   "0 COUNTY ROAD 9|GREATER NAPANEE, Ontario K7R3K8": [
+    "Fibre to the home",
     "Coaxial Cable"
   ],
   "890 BIG ISLAND|Huntsville, Ontario P1H2J2": [
@@ -984,5 +985,18 @@
   "7747 15/16 NOTTAWASAGA SIDEROAD|Clearview, Ontario L0M1G0": [
     "Fibre to the home",
     "Coaxial Cable"
+  ],
+  "Skead RD|Barry's Bay, Ontario K0J1B0": [
+    "Coaxial Cable"
+  ],
+  "Between 474 and 8542 Highway 2|Greater Napanee, Ontario K7R3L1": [
+    "Coaxial Cable"
+  ],
+  "113 CHURCHILL AVENUE|Carleton Place, Ontario K7C4L1": [
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "19311 GLEN ROAD|Williamstown, Ontario K0C2J0": [
+    "Fibre to the home"
   ]
 }
