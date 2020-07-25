@@ -24,6 +24,47 @@ const specificRegex = new RegExp('(' + [
   21731796, // marmora trees
   41930662, // Howe Island
   21925098, // Seguin next to commercial
+
+  // Planned community
+  41488074,
+  42109859,
+  42109855,
+
+  // Shared park lot / leased lands
+  26045601,
+  22391542,
+
+  // Vague
+  37959333,
+
+  // Houses with no internet or no appeal
+  52915999,
+  22393759,
+  23343170,
+  31335306,
+  42019848,
+  22109659,
+  22307912,
+  22289646,
+  22111169, // mobile home, small lot
+  
+
+  // Nice but overpriced
+  (22048268),
+  (22332285),
+  (21115005),
+  (41783948),
+  
+  // No privacy
+  (22173334),
+
+  // Quebec
+  (50708004),
+  (45007438),
+
+  // Expensive vacant land
+  (22391045),
+  (42055867),
 ].join('|') + ')', 'i');
 const specific = (r) => specificRegex.test(r.PublicRemarks);
 
