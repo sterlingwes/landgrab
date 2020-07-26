@@ -960,7 +960,6 @@
     "Coaxial Cable"
   ],
   "0 COUNTY ROAD 9|GREATER NAPANEE, Ontario K7R3K8": [
-    "Fibre to the home",
     "Coaxial Cable"
   ],
   "890 BIG ISLAND|Huntsville, Ontario P1H2J2": [
@@ -1015,11 +1014,12 @@
     "Coaxial Cable"
   ],
   "126 Hineman ST|KINGSTON, Ontario K7L4V3": [
-    "Fibre to the home",
-    "Coaxial Cable"
+    "Fibre to the home"
   ],
   "130 Hineman ST|KINGSTON, Ontario K7L4V3": [
-    "Fibre to the home",
+    "Fibre to the home"
+  ],
+  "185 WELLINGTON STREET|Wardsville, Ontario N0L2N0": [
     "Coaxial Cable"
   ]
 }
