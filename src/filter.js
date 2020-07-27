@@ -62,6 +62,12 @@ const specificRegex = new RegExp('(' + [
   (50708004),
   (45007438),
 
+  // Too undeveloped
+  (42104280),
+
+  // Too remote
+  (21997425), // madoc hwy 62
+
   // Expensive vacant land
   (22391045),
   (42055867),
