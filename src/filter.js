@@ -57,6 +57,7 @@ const specificRegex = new RegExp('(' + [
   
   // No privacy
   (22173334),
+  (42128274),
 
   // Quebec
   (50708004),
@@ -64,9 +65,16 @@ const specificRegex = new RegExp('(' + [
 
   // Too undeveloped
   (42104280),
+  (23362269),
+  (41831440), // Barry's Bay weird shape
 
   // Too remote
   (21997425), // madoc hwy 62
+  (42060018), // Rideau Lake
+  (22401995), // Prince Edward
+  
+  // Island
+  (26899362),
 
   // Expensive vacant land
   (22391045),
