@@ -8,7 +8,14 @@ const {
 
 const outputFile = "results.json";
 
-const fetchPage = (page) =>
+const queries = [
+  // residential listings below $300k
+  `ZoomLevel=7&LatitudeMax=45.53938&LongitudeMax=-74.37146&LatitudeMin=39.25175&LongitudeMin=-89.32385&Sort=1-A&PropertyTypeGroupID=1&PropertySearchTypeId=1&TransactionTypeId=2&PriceMin=25000&PriceMax=300000&LandSizeRange=1-0&Currency=CAD&RecordsPerPage=12&ApplicationId=1&CultureId=1&Version=7.0`,
+  // vacant land listings below $100k
+  `ZoomLevel=7&LatitudeMax=45.53938&LongitudeMax=-74.37146&LatitudeMin=39.25175&LongitudeMin=-89.32385&Sort=1-A&PropertyTypeGroupID=1&PropertySearchTypeId=6&TransactionTypeId=2&PriceMin=25000&PriceMax=100000&LandSizeRange=1-0&Currency=CAD&RecordsPerPage=12&ApplicationId=1&CultureId=1&Version=7.0`,
+];
+
+const fetchPage = (query, page) =>
   fetch("https://api2.realtor.ca/Listing.svc/PropertySearch_Post", {
     headers: {
       accept: "*/*",
@@ -22,7 +29,7 @@ const fetchPage = (page) =>
     },
     referrer: "https://www.realtor.ca/map",
     referrerPolicy: "no-referrer-when-downgrade",
-    body: `ZoomLevel=7&LatitudeMax=45.53938&LongitudeMax=-74.37146&LatitudeMin=39.25175&LongitudeMin=-89.32385&CurrentPage=${page}&Sort=1-A&PropertyTypeGroupID=1&PropertySearchTypeId=1&TransactionTypeId=2&PriceMin=25000&PriceMax=300000&LandSizeRange=1-0&Currency=CAD&RecordsPerPage=12&ApplicationId=1&CultureId=1&Version=7.0`,
+    body: query + `&CurrentPage=${page}`,
     method: "POST",
     mode: "cors",
   });
@@ -73,7 +80,7 @@ const addResults = (response) => {
 const nextPage = () => {
   currentPage += 1;
   console.log(`fetching page ${currentPage} of ${totalPages}`);
-  return fetchPage(currentPage)
+  return fetchPage(queries[0], currentPage)
     .then((response) => {
       if (!response.ok) {
         console.log(
@@ -89,8 +96,14 @@ const nextPage = () => {
       if (currentPage < totalPages) {
         nextPage();
       } else {
-        persistResults();
-        finish(0);
+        queries.shift();
+        if (queries.length > 0) {
+          currentPage = 0;
+          return nextPage();
+        } else {
+          persistResults();
+          finish(0);
+        }
       }
     });
 };
