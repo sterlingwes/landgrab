@@ -34,8 +34,9 @@ const specificRegex = new RegExp('(' + [
   26045601,
   22391542,
 
-  // Vague
+  // Vague or sketchy
   37959333,
+  (21808198),
 
   // Houses with no internet or no appeal
   52915999,
@@ -47,6 +48,7 @@ const specificRegex = new RegExp('(' + [
   22307912,
   22289646,
   22111169, // mobile home, small lot
+  (22347260),
   
 
   // Nice but overpriced
@@ -67,11 +69,14 @@ const specificRegex = new RegExp('(' + [
   (42104280),
   (23362269),
   (41831440), // Barry's Bay weird shape
+  (22057342),
+  (41908899), // Barry's Bay huge
 
   // Too remote
   (21997425), // madoc hwy 62
   (42060018), // Rideau Lake
   (22401995), // Prince Edward
+  (21992538),
   
   // Island
   (26899362),
@@ -79,6 +84,13 @@ const specificRegex = new RegExp('(' + [
   // Expensive vacant land
   (22391045),
   (42055867),
+  (41747942), // waterfront Napanee
+  (21824557), // Trent Hills
+  (21989064), // Belleville
+  (21989221),
+  (22396417),
+  (22025968),
+
 ].join('|') + ')', 'i');
 const specific = (r) => specificRegex.test(r.PublicRemarks);
 
