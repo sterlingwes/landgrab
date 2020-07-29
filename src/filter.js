@@ -19,7 +19,7 @@ const gEstates = (r) => /Gibraltar Estates/i.test(r.PublicRemarks);
 const bEstates = (r) => /Brecken Ridge Estates/i.test(r.PublicRemarks);
 const contractor = (r) => /contractor/i.test(r.PublicRemarks);
 const noHydro = (r) => /no hydro/i.test(r.PublicRemarks);
-const noQuebec = (r) => /Quebec/i.test(result.Address.AddressText);
+const noQuebec = (r) => /Quebec/i.test(result.Property.Address.AddressText);
 
 const specificRegex = new RegExp(
   "(" +
