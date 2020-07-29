@@ -139,7 +139,7 @@ const Listing = ({
               Listing Detail
             </a>
             <a
-              href={`https://www.google.ca/maps/@${lat},${lon},14z/data=!3m1!1e3`}
+              href={`https://www.google.ca/maps/@${lat},${lon},16z/data=!5m1!1e4`}
               target="_blank"
             >
               Google Maps
