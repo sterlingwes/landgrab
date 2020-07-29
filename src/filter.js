@@ -1,4 +1,5 @@
 const industrialRemarks = (result) => /industrial/i.test(result.PublicRemarks);
+const commercial = (result) => /commercial/i.test(result.PublicRemarks);
 const noRoadRemarks = (result) =>
   /no road/i.test(result.PublicRemarks) ||
   /land locked/.test(result.PublicRemarks);
@@ -18,84 +19,123 @@ const gEstates = (r) => /Gibraltar Estates/i.test(r.PublicRemarks);
 const bEstates = (r) => /Brecken Ridge Estates/i.test(r.PublicRemarks);
 const contractor = (r) => /contractor/i.test(r.PublicRemarks);
 const noHydro = (r) => /no hydro/i.test(r.PublicRemarks);
-const specificRegex = new RegExp('(' + [
-  22084675, // Seguin trees
-  22294537, // marmora subdivision trees angle
-  21731796, // marmora trees
-  41930662, // Howe Island
-  21925098, // Seguin next to commercial
+const noQuebec = (r) => /Quebec/i.test(result.Address.AddressText);
 
-  // Planned community
-  41488074,
-  42109859,
-  42109855,
+const specificRegex = new RegExp(
+  "(" +
+    [
+      22084675, // Seguin trees
+      22294537, // marmora subdivision trees angle
+      21731796, // marmora trees
+      41930662, // Howe Island
+      21925098, // Seguin next to commercial
 
-  // Shared park lot / leased lands
-  26045601,
-  22391542,
+      // Planned community
+      41488074,
+      42109859,
+      42109855,
+      22868380,
+      26406877, // riverside pines
 
-  // Vague or sketchy
-  37959333,
-  (21808198),
+      // bad zoning
+      52498851,
+      22278519,
+      22054772,
 
-  // Houses with no internet or no appeal
-  52915999,
-  22393759,
-  23343170,
-  31335306,
-  42019848,
-  22109659,
-  22307912,
-  22289646,
-  22111169, // mobile home, small lot
-  (22347260),
-  
+      // Shared park lot / leased lands
+      26045601,
+      22391542,
 
-  // Nice but overpriced
-  (22048268),
-  (22332285),
-  (21115005),
-  (41783948),
-  
-  // No privacy
-  (22173334),
-  (42128274),
+      // Vague or sketchy
+      37959333,
+      21808198,
+      22333639,
 
-  // Quebec
-  (50708004),
-  (45007438),
+      // Houses with no internet or no appeal
+      52915999,
+      22393759,
+      23343170,
+      31335306,
+      42019848,
+      22109659,
+      22307912,
+      22289646,
+      22111169, // mobile home, small lot
+      22347260,
+      // Nice but overpriced
+      22048268,
+      22332285,
+      21115005,
+      41783948,
 
-  // Too undeveloped
-  (42104280),
-  (23362269),
-  (41831440), // Barry's Bay weird shape
-  (22057342),
-  (41908899), // Barry's Bay huge
+      // No privacy
+      22173334,
+      42128274,
+      23227684,
+      23331562,
+      25770721, // too small, wrong dims
 
-  // Too remote
-  (21997425), // madoc hwy 62
-  (42060018), // Rideau Lake
-  (22401995), // Prince Edward
-  (21992538),
-  
-  // Island
-  (26899362),
+      // Quebec
+      50708004,
+      45007438,
+      26841905,
+      27556711,
+      36286589,
 
-  // Expensive vacant land
-  (22391045),
-  (42055867),
-  (41747942), // waterfront Napanee
-  (21824557), // Trent Hills
-  (21989064), // Belleville
-  (21989221),
-  (22396417),
-  (22025968),
+      // Too undeveloped
+      42104280,
+      23362269,
+      41831440, // Barry's Bay weird shape
+      22057342,
+      41908899, // Barry's Bay huge
+      22190946,
+      22099430, // marmora
+      21982048,
+      26786482, // trent hills / campbellford
+      23023102,
+      22404022,
+      20998455,
+      26562798,
+      26723829,
 
-].join('|') + ')', 'i');
+      // weird shape
+      21985000,
+      42104281,
+
+      // Too remote
+      21997425, // madoc hwy 62
+      42060018, // Rideau Lake
+      22401995, // Prince Edward
+      21992538,
+      22710267, // close to QC
+      22637352,
+      22939815,
+      23196855, // cornwall
+      224102461, // USA?? dover
+      22057726,
+
+      // Island
+      26899362,
+      41930663,
+
+      // Expensive vacant land
+      22391045,
+      42055867,
+      41747942, // waterfront Napanee
+      21824557, // Trent Hills
+      21989064, // Belleville
+      21989221,
+      22396417,
+      22025968,
+    ].join("|") +
+    ")",
+  "i"
+);
 const specific = (r) => specificRegex.test(r.PublicRemarks);
 
 const filters = [
   industrialRemarks,
+  commercial,
   noRoadRemarks,
   forLeaseRemarkes,
   noResidence,
@@ -109,7 +149,8 @@ const filters = [
   bEstates,
   contractor,
   noHydro,
-  specific
+  noQuebec,
+  specific,
 ];
 
 const filterResults = (results) => {
