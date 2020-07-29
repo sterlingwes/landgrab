@@ -14,7 +14,6 @@ const detailPagePath = (result) => {
 
 const excludableInternetTypes = [
   "Fixed Wireless",
-  "DSL",
   "Mobile Wireless",
   "Satellite",
   "High Capacity Transport Services",
