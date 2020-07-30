@@ -19,7 +19,11 @@ const gEstates = (r) => /Gibraltar Estates/i.test(r.PublicRemarks);
 const bEstates = (r) => /Brecken Ridge Estates/i.test(r.PublicRemarks);
 const contractor = (r) => /contractor/i.test(r.PublicRemarks);
 const noHydro = (r) => /no hydro/i.test(r.PublicRemarks);
-const noQuebec = (r) => /Quebec/i.test(result.Property.Address.AddressText);
+const noQuebec = (r) => /Quebec/i.test(r.Property.Address.AddressText);
+const expensiveLand = (r) = (
+  parseInt((r.Property.Price||'0').replace(/[^0-9.]+/g, '')) > 100000
+  && /building lot/i.test(r.PublicRemarks)
+);
 
 const specificRegex = new RegExp(
   "(" +
