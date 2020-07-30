@@ -195,7 +195,8 @@
     "Fibre to the home"
   ],
   "VIEWMOUNT AVENUE|Campbellford, Ontario K0L1Z0": [
-    "Coaxial Cable"
+    "Coaxial Cable",
+    "DSL"
   ],
   "LOT 4 OLD ASPDIN ROAD|Huntsville, Ontario P0B1M0": [
     "DSL",
@@ -258,6 +259,7 @@
     "DSL"
   ],
   "LOT  1 OLD HWY 2|Belleville, Ontario K8N4Z4": [
+    "DSL",
     "Fibre to the home",
     "Coaxial Cable"
   ],
@@ -265,6 +267,7 @@
     "DSL"
   ],
   "LOT 2 OLD HWY 2|Belleville, Ontario K8N4Z4": [
+    "DSL",
     "Fibre to the home",
     "Coaxial Cable"
   ],
@@ -1108,8 +1111,7 @@
     "Coaxial Cable"
   ],
   "0 COUNTY ROAD 9|GREATER NAPANEE, Ontario K7R3K8": [
-    "DSL",
-    "Coaxial Cable"
+    "DSL"
   ],
   "890 BIG ISLAND|Huntsville, Ontario P1H2J2": [
     "DSL",
@@ -1213,7 +1215,6 @@
   ],
   "1 Île au Cèdre|Saint-Anicet, Quebec J0S1M0": [
     "DSL",
-    "Fibre to the home",
     "Fibre to the home"
   ],
   "27 Rue Schingh|Gatineau (Gatineau), Quebec J8P2B1": [
@@ -1499,7 +1500,8 @@
   ],
   "Part Lot 22 COUNTY 18 ROAD|St Andrews West, Ontario K0C2A0": [
     "DSL",
-    "Fibre to the home"
+    "Fibre to the home",
+    "Coaxial Cable"
   ],
   "283 RIVER ROAD|Arnprior, Ontario K7S1G9": [
     "DSL",
@@ -2893,5 +2895,8 @@
     "DSL",
     "Fibre to the home",
     "Coaxial Cable"
+  ],
+  "0 5th Concession RD|Flinton, Ontario K0H1P0": [
+    "DSL"
   ]
 }
