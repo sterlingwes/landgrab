@@ -89,7 +89,8 @@
   ],
   "0 Sunnyside RD|Rideau Lakes, Ontario K0G1X0": [
     "DSL",
-    "DSL"
+    "DSL",
+    "Fibre to the home"
   ],
   "1133 GAYVENTURE COURT #5|Minden, Ontario K0M2K0": [
     "DSL"
@@ -1111,7 +1112,8 @@
     "Coaxial Cable"
   ],
   "0 COUNTY ROAD 9|GREATER NAPANEE, Ontario K7R3K8": [
-    "DSL"
+    "DSL",
+    "Coaxial Cable"
   ],
   "890 BIG ISLAND|Huntsville, Ontario P1H2J2": [
     "DSL",
@@ -1310,8 +1312,7 @@
     "Fibre to the home"
   ],
   ". COUNTY 23 ROAD|Grafton, Ontario K0K2G0": [
-    "DSL",
-    "Fibre to the home"
+    "DSL"
   ],
   "L23-77 LEARMONTH AVENUE|Fitzroy Harbour, Ontario K0A1X0": [
     "DSL",
@@ -2641,8 +2642,7 @@
     "Fibre to the home"
   ],
   "na COUNTY RD 18 ROAD|St Andrews West, Ontario K0C2A0": [
-    "DSL",
-    "Fibre to the home"
+    "DSL"
   ],
   "MERKLEY ROAD|Gravenhurst, Ontario P1P1R3": [
     "DSL"
@@ -2856,6 +2856,7 @@
     "DSL"
   ],
   "COUNTY 22 ROAD|Cardinal, Ontario K0E1E0": [
+    "Coaxial Cable",
     "DSL"
   ],
   "- WIGAMOG ROAD|Haliburton, Ontario K0M2K0": [
@@ -2897,6 +2898,88 @@
     "Coaxial Cable"
   ],
   "0 5th Concession RD|Flinton, Ontario K0H1P0": [
+    "DSL"
+  ],
+  "STOKES BAY ROAD|Stokes Bay, Ontario N0H2M0": [
+    "DSL"
+  ],
+  "CLARKE'S ROAD|Northern Bruce Peninsula, Ontario N0H2M0": [
+    "DSL"
+  ],
+  "WILLIAMSPORT ROAD|Huntsville, Ontario P1H2J4": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "LOT #2 SOUTH MUSKOKA FALLS ROAD|Bracebridge, Ontario P1L1X1": [
+    "DSL",
+    "Fibre to the home",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "LOT 1 S MUSKOKA FALLS ROAD|Bracebridge, Ontario P1L1X1": [
+    "DSL",
+    "Fibre to the home",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "1444 2 CONCESSION|Dobbinton, Ontario N0H1L0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "CROWE ROAD|Frankford, Ontario K0K2C0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "FIRE ROUTE 54A|Havelock-Belmont-Methuen Twp, Ontario K0L1Z0": [
+    "DSL"
+  ],
+  "- ESSONVILLE LINE|Haliburton, Ontario K0M3C0": [
+    "DSL"
+  ],
+  "6008 County 41 RD|Erinsville, Ontario K0K2A0": [
+    "DSL"
+  ],
+  "1639 CHARLOTTEVILLE ROAD 4 .|Vittoria, Ontario N0E1W0": [
+    "Fibre to the home",
+    "DSL"
+  ],
+  "2898 COUNTY RD 16 ROAD|Merrickville, Ontario K0G1N0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "699 SWEET ROAD|Marmora, Ontario K0K2M0": [
+    "DSL"
+  ],
+  "n/a COUNTY 14 ROAD|Finch, Ontario K0C1K0": [
+    "DSL"
+  ],
+  "AFTER 1286 WALKERS LINE|Algonquin Highlands, Ontario K0M1J1": [
+    "DSL"
+  ],
+  "1077 Monck Road|Ramara, Ontario L3P0P6": [
+    "DSL"
+  ],
+  "1077 MONCK RD|Ramara, Ontario L3P0P6": [
+    "DSL"
+  ],
+  "1723 MONCK ROAD|Ramara, Ontario L3V0P6": [
+    "DSL"
+  ],
+  "1723 Monck Road|Ramara, Ontario L3V0P6": [
+    "DSL"
+  ],
+  "1723 MONCK RD|Ramara, Ontario L3V0P6": [
+    "DSL"
+  ],
+  "000 CARMAN ROAD|Iroquois, Ontario K0C1X0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "378 LINE 15 S LINE E|Oro-Medonte, Ontario L3H6H1": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "PENYCK LAKE SOUTH LANE|Sharbot Lake, Ontario K0H2P0": [
     "DSL"
   ]
 }
