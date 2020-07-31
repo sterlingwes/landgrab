@@ -54,6 +54,8 @@ const specificRegex = new RegExp(
       37959333,
       21808198,
       22333639,
+      (26956956),
+      (22689692),
 
       // Houses with no internet or no appeal
       52915999,
@@ -78,6 +80,7 @@ const specificRegex = new RegExp(
       23227684,
       23331562,
       25770721, // too small, wrong dims
+      (21202731),
 
       // Quebec
       50708004,
@@ -85,6 +88,8 @@ const specificRegex = new RegExp(
       26841905,
       27556711,
       36286589,
+      (23322473),
+      (23322647),
 
       // Too undeveloped
       42104280,
@@ -101,10 +106,15 @@ const specificRegex = new RegExp(
       20998455,
       26562798,
       26723829,
+      (22322509), // Eagle Lake
+      (40207572), (40207573), // Rideau lakes
+      (23222452),
 
-      // weird shape
+      // weird shape / too small
       21985000,
       42104281,
+      (26820290),
+      (26331219),
 
       // Too remote
       21997425, // madoc hwy 62
@@ -117,6 +127,9 @@ const specificRegex = new RegExp(
       23196855, // cornwall
       224102461, // USA?? dover
       22057726,
+      (22428470),
+      (23330676),
+      (22422193),
 
       // Island
       26899362,
