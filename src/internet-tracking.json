@@ -89,8 +89,7 @@
   ],
   "0 Sunnyside RD|Rideau Lakes, Ontario K0G1X0": [
     "DSL",
-    "DSL",
-    "Fibre to the home"
+    "DSL"
   ],
   "1133 GAYVENTURE COURT #5|Minden, Ontario K0M2K0": [
     "DSL"
@@ -2856,7 +2855,6 @@
     "DSL"
   ],
   "COUNTY 22 ROAD|Cardinal, Ontario K0E1E0": [
-    "Coaxial Cable",
     "DSL"
   ],
   "- WIGAMOG ROAD|Haliburton, Ontario K0M2K0": [
@@ -2923,8 +2921,7 @@
     "Coaxial Cable"
   ],
   "1444 2 CONCESSION|Dobbinton, Ontario N0H1L0": [
-    "DSL",
-    "Fibre to the home"
+    "DSL"
   ],
   "CROWE ROAD|Frankford, Ontario K0K2C0": [
     "DSL",
@@ -2981,5 +2978,85 @@
   ],
   "PENYCK LAKE SOUTH LANE|Sharbot Lake, Ontario K0H2P0": [
     "DSL"
+  ],
+  "0 Guild RD|Mallorytown, Ontario K0E1N0": [
+    "DSL"
+  ],
+  "GOLDEN BEACH ROAD|Bracebridge, Ontario P1L1W8": [
+    "DSL",
+    "Fibre to the home",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "150 DRIVE-IN CRESCENT|Georgian Bluffs, Ontario N4K5N7": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable",
+    "DSL",
+    "DSL"
+  ],
+  "541 57 12th Conc Road E|Flamborough, Ontario L0R1K0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "RENHILL DRIVE #Lot 1|Dunsford, Ontario K0M1L0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "REHILL DRIVE #Lot 2|Dunsford, Ontario K0M1L0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "REHILL DRIVE #Lot 4|Dunsford, Ontario K0M1L0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "REHILL DRIVE #Lot 3|Dunsford, Ontario K0M1L0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "REHILL DRIVE #Lot 5|Dunsford, Ontario K0M1L0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "14381 DAFOE ROAD|Ingleside, Ontario K0C1M0": [
+    "DSL"
+  ],
+  "122 PAUDASH SCHOOL ROAD N|Faraday, Ontario K0L1C0": [
+    "DSL"
+  ],
+  "SUITE #1 -  2626 MEWBURN Road|Niagara Falls, Ontario L2J0G4": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "1452 BLAIRHAMPTON ROAD|Minden, Ontario K0M2K0": [
+    "DSL"
+  ],
+  "SUITE #2 -  2626 MEWBURN Road|Niagara Falls, Ontario L2J0G4": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "803149 PUDDICOMBE LANE|Chatsworth, Ontario N0H1G0": [
+    "DSL"
+  ],
+  "LOT 36 FIRE ROUTE 70|Buckhorn, Ontario K0L1J0": [
+    "DSL"
+  ],
+  "170 KENDON LANE ROAD|Coe Hill, Ontario N1A2W1": [
+    "DSL"
+  ],
+  "LOT 41 FIRE ROUTE 70|Buckhorn, Ontario K0L1J0": [
+    "DSL"
+  ],
+  "N/A GREY ROAD 1|Georgian Bluffs, Ontario N0H2T0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "00 BOURNE SIDE ROAD|Carleton Place, Ontario K7A4S7": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
   ]
 }
