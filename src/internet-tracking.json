@@ -89,7 +89,8 @@
   ],
   "0 Sunnyside RD|Rideau Lakes, Ontario K0G1X0": [
     "DSL",
-    "DSL"
+    "DSL",
+    "Fibre to the home"
   ],
   "1133 GAYVENTURE COURT #5|Minden, Ontario K0M2K0": [
     "DSL"
@@ -405,8 +406,6 @@
     "Fibre to the home"
   ],
   "1795 HIGHWAY 21|Minden, Ontario K0M2K0": [
-    "Fibre to the home",
-    "Coaxial Cable",
     "DSL",
     "Fibre to the home"
   ],
@@ -1179,7 +1178,8 @@
   ],
   "126 Hineman ST|KINGSTON, Ontario K7L4V3": [
     "DSL",
-    "Fibre to the home"
+    "Fibre to the home",
+    "Coaxial Cable"
   ],
   "130 Hineman ST|KINGSTON, Ontario K7L4V3": [
     "DSL",
@@ -1212,7 +1212,7 @@
   ],
   "1376 COUNTY RD 2 RD|Leeds & the Thousand Island, Ontario K0E1R0": [
     "DSL",
-    "Coaxial Cable"
+    "DSL"
   ],
   "1 Île au Cèdre|Saint-Anicet, Quebec J0S1M0": [
     "DSL",
@@ -1499,9 +1499,7 @@
     "Coaxial Cable"
   ],
   "Part Lot 22 COUNTY 18 ROAD|St Andrews West, Ontario K0C2A0": [
-    "DSL",
-    "Fibre to the home",
-    "Coaxial Cable"
+    "DSL"
   ],
   "283 RIVER ROAD|Arnprior, Ontario K7S1G9": [
     "DSL",
@@ -1726,6 +1724,7 @@
     "DSL"
   ],
   "PT LT 5-6 CONCESSION 8 ROAD W|Hastings, Ontario K0L1Y0": [
+    "Coaxial Cable",
     "DSL"
   ],
   "COUNTY ROAD 5|Demorestville, Ontario K0K1W0": [
@@ -2641,7 +2640,8 @@
     "Fibre to the home"
   ],
   "na COUNTY RD 18 ROAD|St Andrews West, Ontario K0C2A0": [
-    "DSL"
+    "DSL",
+    "Fibre to the home"
   ],
   "MERKLEY ROAD|Gravenhurst, Ontario P1P1R3": [
     "DSL"
@@ -2795,6 +2795,8 @@
     "DSL"
   ],
   "PT 1 SHIELD DRIVE|Cavan-Monaghan, Ontario L0A1C0": [
+    "DSL",
+    "Fibre to the home",
     "DSL"
   ],
   "0 Hewett LN|South Frontenac, Ontario K0H1H0": [
@@ -2921,7 +2923,8 @@
     "Coaxial Cable"
   ],
   "1444 2 CONCESSION|Dobbinton, Ontario N0H1L0": [
-    "DSL"
+    "DSL",
+    "Fibre to the home"
   ],
   "CROWE ROAD|Frankford, Ontario K0K2C0": [
     "DSL",
@@ -3058,5 +3061,23 @@
     "DSL",
     "Fibre to the home",
     "Coaxial Cable"
+  ],
+  "120 MAINHOOD ROAD|Utterson, Ontario P0B1M0": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "1005 TORTOISE DRIVE|Wilberforce, Ontario K0L3C0": [
+    "DSL"
+  ],
+  "16725 DUFF'S CORNERS ROAD|Monkland, Ontario K0C1V0": [
+    "DSL"
+  ],
+  "749 TOWNLINE ROAD|Kemptville, Ontario K0G1J0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "CAPE HURD ROAD|Tobermory, Ontario N0H2R0": [
+    "DSL"
   ]
 }
