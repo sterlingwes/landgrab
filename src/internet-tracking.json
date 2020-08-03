@@ -450,10 +450,9 @@
     "DSL"
   ],
   "PT 2 SHIELD DRIVE|Cavan-Monaghan, Ontario L0A1C0": [
-    "Fibre to the home",
     "DSL",
     "Fibre to the home",
-    "Coaxial Cable"
+    "DSL"
   ],
   "27 LOUISE CREEK CRESCENT|West Grey, Ontario N0G1S0": [
     "Coaxial Cable",
@@ -1216,6 +1215,7 @@
   ],
   "1 Île au Cèdre|Saint-Anicet, Quebec J0S1M0": [
     "DSL",
+    "Fibre to the home",
     "Fibre to the home"
   ],
   "27 Rue Schingh|Gatineau (Gatineau), Quebec J8P2B1": [
@@ -1725,7 +1725,8 @@
   ],
   "PT LT 5-6 CONCESSION 8 ROAD W|Hastings, Ontario K0L1Y0": [
     "Coaxial Cable",
-    "DSL"
+    "DSL",
+    "Fibre to the home"
   ],
   "COUNTY ROAD 5|Demorestville, Ontario K0K1W0": [
     "DSL"
@@ -2857,6 +2858,7 @@
     "DSL"
   ],
   "COUNTY 22 ROAD|Cardinal, Ontario K0E1E0": [
+    "Coaxial Cable",
     "DSL"
   ],
   "- WIGAMOG ROAD|Haliburton, Ontario K0M2K0": [
@@ -3078,6 +3080,22 @@
     "Coaxial Cable"
   ],
   "CAPE HURD ROAD|Tobermory, Ontario N0H2R0": [
+    "DSL"
+  ],
+  "2823 HARBURN ROAD|Haliburton, Ontario K0M1S0": [
+    "DSL"
+  ],
+  "3792 COUNTY ROAD 121|Kinmount, Ontario K0M2A0": [
+    "DSL"
+  ],
+  "HEARNS ROAD|Hastings, Ontario K0K2C0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "297 CLARE NEWHAMS ROAD|Havelock-Belmont-Methuen Twp, Ontario K0L1A0": [
+    "DSL"
+  ],
+  "159 DRUMMOND CONCESSION 2A ROAD|Perth, Ontario K7H3C3": [
     "DSL"
   ]
 }
