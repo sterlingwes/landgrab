@@ -104,7 +104,8 @@
     "DSL"
   ],
   "0 GYPSY LN|DESERONTO, Ontario K0K1X0": [
-    "DSL"
+    "DSL",
+    "Coaxial Cable"
   ],
   "LOOP ROAD - COUNTY ROAD 648 ROAD|Harcourt, Ontario K0L1X0": [
     "DSL"
@@ -406,6 +407,8 @@
     "Fibre to the home"
   ],
   "1795 HIGHWAY 21|Minden, Ontario K0M2K0": [
+    "Fibre to the home",
+    "Coaxial Cable",
     "DSL",
     "Fibre to the home"
   ],
@@ -1147,7 +1150,6 @@
     "Coaxial Cable"
   ],
   "Skead RD|Barry's Bay, Ontario K0J1B0": [
-    "Coaxial Cable",
     "DSL"
   ],
   "Between 474 and 8542 Highway 2|Greater Napanee, Ontario K7R3L1": [
@@ -1215,7 +1217,6 @@
   ],
   "1 Île au Cèdre|Saint-Anicet, Quebec J0S1M0": [
     "DSL",
-    "Fibre to the home",
     "Fibre to the home"
   ],
   "27 Rue Schingh|Gatineau (Gatineau), Quebec J8P2B1": [
@@ -1311,7 +1312,8 @@
     "Fibre to the home"
   ],
   ". COUNTY 23 ROAD|Grafton, Ontario K0K2G0": [
-    "DSL"
+    "DSL",
+    "Fibre to the home"
   ],
   "L23-77 LEARMONTH AVENUE|Fitzroy Harbour, Ontario K0A1X0": [
     "DSL",
@@ -1499,7 +1501,9 @@
     "Coaxial Cable"
   ],
   "Part Lot 22 COUNTY 18 ROAD|St Andrews West, Ontario K0C2A0": [
-    "DSL"
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
   ],
   "283 RIVER ROAD|Arnprior, Ontario K7S1G9": [
     "DSL",
@@ -1512,9 +1516,7 @@
     "Coaxial Cable"
   ],
   "MURPHY ROAD E|Oxford Mills, Ontario K0G1J0": [
-    "DSL",
-    "Fibre to the home",
-    "Coaxial Cable"
+    "DSL"
   ],
   "Pt Lot 15 VINCENT MASSEY DR DRIVE|Cornwall, Ontario K6H5R6": [
     "DSL",
@@ -1725,8 +1727,7 @@
   ],
   "PT LT 5-6 CONCESSION 8 ROAD W|Hastings, Ontario K0L1Y0": [
     "Coaxial Cable",
-    "DSL",
-    "Fibre to the home"
+    "DSL"
   ],
   "COUNTY ROAD 5|Demorestville, Ontario K0K1W0": [
     "DSL"
@@ -3097,5 +3098,22 @@
   ],
   "159 DRUMMOND CONCESSION 2A ROAD|Perth, Ontario K7H3C3": [
     "DSL"
+  ],
+  "BEAUMONT DRIVE|Bracebridge, Ontario P1L1X2": [
+    "DSL",
+    "Fibre to the home",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "3272 CALABOGIE ROAD|Burnstown, Ontario K0J1H0": [
+    "DSL"
+  ],
+  "0 HIGHWAY 35  N|Kawartha Lakes, Ontario K0M1K0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "HIGHWAY 35  N|Coboconk, Ontario K0M1K0": [
+    "DSL",
+    "Coaxial Cable"
   ]
 }
