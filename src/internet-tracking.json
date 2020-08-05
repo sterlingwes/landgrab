@@ -104,8 +104,7 @@
     "DSL"
   ],
   "0 GYPSY LN|DESERONTO, Ontario K0K1X0": [
-    "DSL",
-    "Coaxial Cable"
+    "DSL"
   ],
   "LOOP ROAD - COUNTY ROAD 648 ROAD|Harcourt, Ontario K0L1X0": [
     "DSL"
@@ -1516,7 +1515,9 @@
     "Coaxial Cable"
   ],
   "MURPHY ROAD E|Oxford Mills, Ontario K0G1J0": [
-    "DSL"
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
   ],
   "Pt Lot 15 VINCENT MASSEY DR DRIVE|Cornwall, Ontario K6H5R6": [
     "DSL",
@@ -3113,6 +3114,64 @@
     "Coaxial Cable"
   ],
   "HIGHWAY 35  N|Coboconk, Ontario K0M1K0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "0 White Lake RD|Godfrey, Ontario K0H1T0": [
+    "DSL"
+  ],
+  "13644B HWY 62 ROAD S|Madoc, Ontario K0K2M0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "PT LT 16 BRADLEY DRIVE|Northern Bruce Peninsula, Ontario N0H1Z0": [
+    "DSL"
+  ],
+  "0 Lipsett LN|Central Frontenac, Ontario K0H1B0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "1341 BILLIE BEAR ROAD #9|Dwight, Ontario P0A1H0": [
+    "DSL"
+  ],
+  "1341 BILLIE BEAR ROAD #3|Dwight, Ontario P0A1H0": [
+    "DSL"
+  ],
+  "QUINTE VIEW ROAD|Greater Napanee, Ontario K0H1G9": [
+    "Coaxial Cable"
+  ],
+  "COUNTY ROAD 21|Minden, Ontario K0M2K0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "570 UPPER FLINTON ROAD|Tweed, Ontario K0K3J0": [
+    "DSL"
+  ],
+  "20315 COUNTY 24 ROAD|Dunvegan, Ontario K0C1J0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "7763 Loyalist PKWY|Greater Napanee, Ontario K0H1G0": [
+    "DSL"
+  ],
+  "2138 WINDERMERE ROAD|Windermere, Ontario P0B1M0": [
+    "DSL"
+  ],
+  "LOT 12 HURON PARK ROAD|Northern Bruce Peninsula, Ontario N0H2M0": [
+    "DSL"
+  ],
+  "4 ST ANDREWS DRIVE|Westport, Ontario K0G1X0": [
+    "DSL"
+  ],
+  "6 AUTUMN DRIVE|Smiths Falls, Ontario K7A4S4": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "OLD MARMORA ROAD|Marmora, Ontario K0K2M0": [
+    "DSL"
+  ],
+  "745-749 TOWNLINE ROAD|Kemptville, Ontario K0G1J0": [
     "DSL",
     "Coaxial Cable"
   ]
