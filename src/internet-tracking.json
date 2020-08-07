@@ -1515,9 +1515,7 @@
     "Coaxial Cable"
   ],
   "MURPHY ROAD E|Oxford Mills, Ontario K0G1J0": [
-    "DSL",
-    "Fibre to the home",
-    "Coaxial Cable"
+    "DSL"
   ],
   "Pt Lot 15 VINCENT MASSEY DR DRIVE|Cornwall, Ontario K6H5R6": [
     "DSL",
@@ -3173,6 +3171,73 @@
   ],
   "745-749 TOWNLINE ROAD|Kemptville, Ontario K0G1J0": [
     "DSL",
+    "Coaxial Cable"
+  ],
+  "PROSPECT LAKE ROAD|Bracebridge, Ontario P1L1X1": [
+    "DSL"
+  ],
+  "8980 COUNTY ROAD 50|Havelock, Ontario K0L1Z0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "LOT 1 HAND DRIVE|Haliburton, Ontario K0M1S0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "1411 PORTAGE ROAD|Kirkfield, Ontario K0M2B0": [
+    "DSL",
+    "DSL"
+  ],
+  "46 VINCES LANE|Calabogie, Ontario K0J1H0": [
+    "DSL"
+  ],
+  "414 washington Road|Fort Erie, Ontario L2A4K4": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "1009 SUMMERVILLE ROAD|Gooderham, Ontario K0M1R0": [
+    "DSL"
+  ],
+  "2546 2ND CONCESSION ROAD|Augusta, Ontario K0E1T0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1020 BRENHOLME LANE|Wilberforce, Ontario K0L3C0": [
+    "DSL"
+  ],
+  "475 GODERICH STREET|Port Elgin, Ontario N0H2C4": [
+    "Coaxial Cable",
+    "DSL",
+    "Fibre to the home"
+  ],
+  "391 OLD RIVER ROAD|Mallorytown, Ontario K0E1R0": [
+    "DSL"
+  ],
+  "224 JURA LANE|Ingersoll, Ontario N5C2R9": [
+    "Fibre to the home",
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "COUNTY RD 49 ROAD|Trent Lakes, Ontario K0M1A0": [
+    "DSL"
+  ],
+  "67 511 HIGHWAY|Perth, Ontario K0G1K0": [
+    "DSL"
+  ],
+  "00 509 ROAD|Ompah, Ontario K0H2J0": [
+    "DSL"
+  ],
+  "NO ROAD ACCESS ROAD|Eldorado, Ontario K0K1Y0": [
+    "DSL"
+  ],
+  "00 LITTLE 5TH ROAD S|Lancaster, Ontario K0C1N0": [
+    "DSL"
+  ],
+  "2 Ch. Pink|Gatineau (Aylmer), Quebec J9J3E7": [
+    "DSL",
+    "Fibre to the home",
     "Coaxial Cable"
   ]
 }
