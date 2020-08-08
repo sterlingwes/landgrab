@@ -1311,8 +1311,7 @@
     "Fibre to the home"
   ],
   ". COUNTY 23 ROAD|Grafton, Ontario K0K2G0": [
-    "DSL",
-    "Fibre to the home"
+    "DSL"
   ],
   "L23-77 LEARMONTH AVENUE|Fitzroy Harbour, Ontario K0A1X0": [
     "DSL",
@@ -3239,5 +3238,59 @@
     "DSL",
     "Fibre to the home",
     "Coaxial Cable"
+  ],
+  "7536 COUNTY ROAD|Irondale, Ontario K0M1X0": [
+    "DSL"
+  ],
+  "2707 COOPER ROAD|Madoc, Ontario K0K2K0": [
+    "DSL"
+  ],
+  "LT 16 THUNDER BEACH ROAD|Tiny, Ontario L9M0T4": [
+    "DSL"
+  ],
+  "0 COUNTY ROAD 25|GREATER NAPANEE, Ontario K7R3K7": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "3522 Holleford RD|South Frontenac, Ontario K0H1W0": [
+    "DSL"
+  ],
+  "PT LT 24 NOBLE DRIVE|Miller Lake, Ontario N0H1Z0": [
+    "DSL"
+  ],
+  "WHITEFISH RAPIDS LANE|Cloyne, Ontario K0H1K0": [
+    "DSL"
+  ],
+  "129 RATHWELL ROAD|Perth, Ontario K7H3C5": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "1052 WHITEFISH RAPIDS LINE|Cloyne, Ontario K0H1K0": [
+    "DSL"
+  ],
+  "423080 ROCKY SAUGEEN ROAD|Glenelg, Ontario N0G1R0": [
+    "DSL"
+  ],
+  "501 -  793 COLBORNE Street E|Brantford, Ontario N3S7J3": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "511 5TH AVENUE|Port McNicoll, Ontario L0K1R0": [
+    "No Local Access",
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "WYNANDS ROAD|Cardinal, Ontario K0E1E0": [
+    "DSL"
+  ],
+  "700 2ND LINE|Havelock-Belmont-Methuen, Ontario K0L1Z0": [
+    "DSL"
+  ],
+  "00 FOSTER HALL ROAD|Brockville, Ontario K6V5T4": [
+    "DSL"
   ]
 }
