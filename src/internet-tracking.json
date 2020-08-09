@@ -1212,7 +1212,7 @@
   ],
   "1376 COUNTY RD 2 RD|Leeds & the Thousand Island, Ontario K0E1R0": [
     "DSL",
-    "DSL"
+    "Coaxial Cable"
   ],
   "1 Île au Cèdre|Saint-Anicet, Quebec J0S1M0": [
     "DSL",
@@ -1311,7 +1311,8 @@
     "Fibre to the home"
   ],
   ". COUNTY 23 ROAD|Grafton, Ontario K0K2G0": [
-    "DSL"
+    "DSL",
+    "Fibre to the home"
   ],
   "L23-77 LEARMONTH AVENUE|Fitzroy Harbour, Ontario K0A1X0": [
     "DSL",
@@ -1499,9 +1500,7 @@
     "Coaxial Cable"
   ],
   "Part Lot 22 COUNTY 18 ROAD|St Andrews West, Ontario K0C2A0": [
-    "DSL",
-    "Fibre to the home",
-    "Coaxial Cable"
+    "DSL"
   ],
   "283 RIVER ROAD|Arnprior, Ontario K7S1G9": [
     "DSL",
@@ -2640,8 +2639,7 @@
     "Fibre to the home"
   ],
   "na COUNTY RD 18 ROAD|St Andrews West, Ontario K0C2A0": [
-    "DSL",
-    "Fibre to the home"
+    "DSL"
   ],
   "MERKLEY ROAD|Gravenhurst, Ontario P1P1R3": [
     "DSL"
@@ -3292,5 +3290,32 @@
   ],
   "00 FOSTER HALL ROAD|Brockville, Ontario K6V5T4": [
     "DSL"
+  ],
+  "202 1103 JALNA Boulevard|London, Ontario N6E2W8": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "200 Rue du Prado|#4|Gatineau (Aylmer), Quebec J9J1P4": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "10 5 Rockwood Place|Hamilton, Ontario L8N2G3": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable",
+    "Coaxial Cable",
+    "Coaxial Cable"
+  ],
+  "N/A COUNTY 30 ROAD|Maxville, Ontario K0C1T0": [
+    "DSL"
+  ],
+  "69 ROCK LAKE CRESCENT|Bancroft, Ontario K0L1C0": [
+    "DSL"
+  ],
+  "0 HIGHWAY 35|Minden Hills, Ontario": [
+    "DSL",
+    "Fibre to the home"
   ]
 }
