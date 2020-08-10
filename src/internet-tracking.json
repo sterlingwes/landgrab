@@ -1291,7 +1291,8 @@
   ],
   "000 CONC 12B DRUMMOND ROAD|Lanark, Ontario K0G1K0": [
     "DSL",
-    "Fibre to the home"
+    "Fibre to the home",
+    "Coaxial Cable"
   ],
   "PT LT 5 CON 3 COUNTRY RD 30 RD|Trent Hills, Ontario K0L1L0": [
     "Coaxial Cable",
@@ -3269,6 +3270,7 @@
     "DSL"
   ],
   "423080 ROCKY SAUGEEN ROAD|Glenelg, Ontario N0G1R0": [
+    "Coaxial Cable",
     "DSL"
   ],
   "501 -  793 COLBORNE Street E|Brantford, Ontario N3S7J3": [
@@ -3317,5 +3319,10 @@
   "0 HIGHWAY 35|Minden Hills, Ontario": [
     "DSL",
     "Fibre to the home"
+  ],
+  "275 KEATLEY ROAD|Arnprior, Ontario K7S3G7": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
   ]
 }
