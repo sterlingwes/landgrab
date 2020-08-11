@@ -1312,8 +1312,7 @@
     "Fibre to the home"
   ],
   ". COUNTY 23 ROAD|Grafton, Ontario K0K2G0": [
-    "DSL",
-    "Fibre to the home"
+    "DSL"
   ],
   "L23-77 LEARMONTH AVENUE|Fitzroy Harbour, Ontario K0A1X0": [
     "DSL",
@@ -3323,6 +3322,22 @@
   "275 KEATLEY ROAD|Arnprior, Ontario K7S3G7": [
     "DSL",
     "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "Lot 1 Applewood LN|South Frontenac, Ontario K0H1H0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "Lot 2 Applewood LN|South Frontenac, Ontario K0H1H0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "Lot 20 Applewood LN|South Frontenac, Ontario K0H1H0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "PART 2 RICHARDSON POINT LANE|Hastings, Ontario K0K2C0": [
+    "DSL",
     "Coaxial Cable"
   ]
 }
