@@ -762,6 +762,7 @@
   ],
   "0 Johnson Bay LN|Howe Island, Ontario K7G2V6": [
     "DSL",
+    "Fibre to the home",
     "Coaxial Cable"
   ],
   "631 King ST W|Gananoque, Ontario K7G2H3": [
@@ -1291,8 +1292,7 @@
   ],
   "000 CONC 12B DRUMMOND ROAD|Lanark, Ontario K0G1K0": [
     "DSL",
-    "Fibre to the home",
-    "Coaxial Cable"
+    "Fibre to the home"
   ],
   "PT LT 5 CON 3 COUNTRY RD 30 RD|Trent Hills, Ontario K0L1L0": [
     "Coaxial Cable",
@@ -1500,7 +1500,8 @@
     "Coaxial Cable"
   ],
   "Part Lot 22 COUNTY 18 ROAD|St Andrews West, Ontario K0C2A0": [
-    "DSL"
+    "DSL",
+    "Fibre to the home"
   ],
   "283 RIVER ROAD|Arnprior, Ontario K7S1G9": [
     "DSL",
@@ -3316,8 +3317,7 @@
     "DSL"
   ],
   "0 HIGHWAY 35|Minden Hills, Ontario": [
-    "DSL",
-    "Fibre to the home"
+    "DSL"
   ],
   "275 KEATLEY ROAD|Arnprior, Ontario K7S3G7": [
     "DSL",
@@ -3337,6 +3337,24 @@
     "Fibre to the home"
   ],
   "PART 2 RICHARDSON POINT LANE|Hastings, Ontario K0K2C0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "757 COUNTY ROAD 9|GREATER NAPANEE, Ontario K7R3K8": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "18070 HIGHWAY 43 HIGHWAY|Apple Hill, Ontario K0C1B0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "2984 Upper Flinton RD|Flinton, Ontario K0H1P0": [
+    "DSL"
+  ],
+  "4697 AIRPORT ROAD|Elizabethtown, Ontario K6V5T5": [
+    "DSL"
+  ],
+  "0 WEST  ST|Kawartha Lakes, Ontario K0M1A0": [
     "DSL",
     "Coaxial Cable"
   ]
