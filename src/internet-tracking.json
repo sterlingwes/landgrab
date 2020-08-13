@@ -3949,8 +3949,7 @@
   ],
   "0 OLD MARMORA Road|Marmora, Ontario K0K2M0": [
     "Coaxial Cable",
-    "DSL",
-    "Fibre to the home"
+    "DSL"
   ],
   "1062 SOUTH MULDREW LAKE Road|Gravenhurst, Ontario P0E1G0": [
     "DSL"
@@ -4121,6 +4120,88 @@
   ],
   "591 HISCOCK SHORES Road|Carrying Place, Ontario K0K1L0": [
     "DSL",
+    "Coaxial Cable"
+  ],
+  "625 MILLHAVEN RD|Odessa, Ontario K0H2H0": [
+    "DSL"
+  ],
+  "4380 LORDS MILLS ROAD|Prescott, Ontario K0E1T0": [
+    "DSL"
+  ],
+  "9283 OPEONGO Road|Barry's Bay, Ontario K0J2N0": [
+    "DSL"
+  ],
+  "14 HILL Road|Quinte West, Ontario K8V5P4": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "501222 GREY ROAD 1 .|Georgian Bluffs, Ontario N0H2T0": [
+    "DSL"
+  ],
+  "511 5TH Avenue|Port McNicoll, Ontario L0K1R0": [
+    "No Local Access",
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "8228 ROKEBY Line|Brook Rural, Ontario N0N1A0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "PT LT 9 CONCESSION 8 BELMONT .|Havelock, Ontario K0L1Z0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "PCL 22-1 SEC D21 STOKES BAY Road|Northern Bruce Peninsula, Ontario N0H1W0": [
+    "DSL"
+  ],
+  "1588 SOUTH BAPTISTE LAKE Road|Hastings Highlands, Ontario K0L1C0": [
+    "DSL"
+  ],
+  "LOT 6 PAINT LAKE Road|Lake Of Bays, Ontario P0A1E0": [
+    "DSL"
+  ],
+  "0 BRUNEL Road|Huntsville, Ontario P1H2J3": [
+    "DSL",
+    "Fibre to the home",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "N/A HIGHWAY 28 .|Apsley, Ontario K0L1A0": [
+    "DSL"
+  ],
+  "LOT 5 WHITNEY Road|Perry, Ontario P0A1J0": [
+    "DSL"
+  ],
+  "LOT 4 OLD ASPDIN Road|Huntsville, Ontario P0B1M0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "LOT 2 OLD ASPDIN Road|Huntsville, Ontario P0B1M0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "LOT  1 OLD HWY 2 .|Belleville, Ontario K8N4Z4": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "LOT 3 OLD ASPDIN Road|Huntsville, Ontario P0B1M0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "LOT 1 OLD ASPDIN Road|Huntsville, Ontario P0B1M0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "LOT 8 OLD ASPDIN Road|Huntsville, Ontario P0B1M0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "LOT 2 OLD HWY 2 .|Belleville, Ontario K8N4Z4": [
+    "DSL",
+    "Fibre to the home",
     "Coaxial Cable"
   ]
 }
