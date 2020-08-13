@@ -1501,7 +1501,8 @@
   ],
   "Part Lot 22 COUNTY 18 ROAD|St Andrews West, Ontario K0C2A0": [
     "DSL",
-    "Fibre to the home"
+    "Fibre to the home",
+    "Coaxial Cable"
   ],
   "283 RIVER ROAD|Arnprior, Ontario K7S1G9": [
     "DSL",
@@ -3355,6 +3356,770 @@
     "DSL"
   ],
   "0 WEST  ST|Kawartha Lakes, Ontario K0M1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1111 DWIGHT BAY Road Unit# 10, Fixed|Lake Of Bays, Ontario P0A1H0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "1111 DWIGHT BEACH Road Unit# Unit 1, Fi|Dwight, Ontario P0A1H0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "1111 DWIGHT BEACH Road Unit# 9, Fixed W|Lake Of Bays, Ontario P0A1H0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "1111 DWIGHT BEACH Road Unit# 3, Week 1|Dwight, Ontario P0A1H0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "1869 118 MUSKOKA Road S Unit# G102 C1 &|Muskoka Lakes, Ontario P1L1W8": [
+    "DSL"
+  ],
+  "1133 GAYVENTURE Court Unit# 5|Minden, Ontario K0M2K0": [
+    "DSL"
+  ],
+  "12 BIGWIN ISLAND . Unit# Unit 309|Baysville, Ontario P0A1H0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1003 MATTHEWS Drive Unit# C4 (5D)|Windermere, Ontario P0B1P0": [
+    "DSL"
+  ],
+  "430 FORESTVIEW Road|Highland Grove, Ontario K0L2A0": [
+    "DSL"
+  ],
+  "1003 MATTHEWS Drive Unit# C1 (5C)|Windermere, Ontario P0B1P0": [
+    "DSL"
+  ],
+  "1003 MATTHEWS Drive Unit# C6 (5B)|Windermere, Ontario P0B1P0": [
+    "DSL"
+  ],
+  "1020 BIRCH GLEN VILLA 5 WEEK 9 Road|Baysville, Ontario P0B1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1020 BIRCH GLEN V7. W10 Road|Baysville, Ontario P0B1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "LOT 1 HAND Drive|Haliburton, Ontario K0M1S0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "1003 MATTHEWS Drive Unit# C6 (7E)|Windermere, Ontario P0B1P0": [
+    "DSL"
+  ],
+  "V 3 W5, P2 1020 BIRCH GLEN Road Unit# V-3, W-5|Baysville, Ontario P0B1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1020 BIRCH GLEN MAPLE COTTAGE WEEK 7 Road|Baysville, Ontario P0B1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1020 BIRCH GLEN V16 W2 Road|Baysville, Ontario P0B1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1020 BIRCH GLEN  V13, W9, P10 Road|Baysville, Ontario P0B1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1020 BIRCH GLEN V10 W6, P4 Road|Baysville, Ontario P0B1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1020 BIRCH GLEN V 9 W7 Road|Baysville, Ontario P0B1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "752 MCDONALD MINE Road|Hastings Highlands, Ontario K0L1C0": [
+    "DSL"
+  ],
+  "1110 DEVLIN Drive|Minden Hills, Ontario K0M2K0": [
+    "DSL"
+  ],
+  "1020 BIRCH GLEN MAPLE COTTAGE WEEK 9 Road|Baysville, Ontario P0B1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1020 BIRCH GLEN VILLA 14 WEEK 1 Road|Lake Of Bays, Ontario P0B1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "V 14 W6, P4 1020 BIRCH GLEN Road Unit# V-14, W-6|Baysville, Ontario P0B1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "2261 HIGHWAY 504 .|Apsley, Ontario K0L1A0": [
+    "DSL"
+  ],
+  "1020 BIRCH GLEN V 11, W 5 Road|Baysville, Ontario P0B1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "546 WARNER BAY Road|Tobermory, Ontario N0H2R0": [
+    "DSL"
+  ],
+  "1050 PAIGNTON HOUSE Road Unit# 1231|Minett, Ontario P0B1G0": [
+    "DSL"
+  ],
+  "1020 BIRCH GLEN RD C3 W9 Road|Baysville, Ontario P0B1A0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1050 PAIGNTON HOUSE Road Unit# 1119|Minett, Ontario P0B1G0": [
+    "DSL"
+  ],
+  "0 Carroll RD|Tamworth, Ontario K0K3G0": [
+    "DSL"
+  ],
+  "1050 PAIGNTON HOUSE Road Unit# 1207|Minett, Ontario P0B1G0": [
+    "DSL"
+  ],
+  "1367 WALKERS PT Road|Gravenhurst, Ontario P1P1R2": [
+    "DSL"
+  ],
+  "1367 WALKERS POINT RD|Muskoka Lakes, Ontario P1P1R2": [
+    "DSL"
+  ],
+  "1795 HIGHWAY 21 .|Minden, Ontario K0M2K0": [
+    "Fibre to the home",
+    "Coaxial Cable",
+    "DSL",
+    "Fibre to the home"
+  ],
+  "37 MILLER Street|Parry Sound, Ontario P2A1S9": [
+    "DSL",
+    "Fibre to the home",
+    "Fibre to the home",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "348 AUGUSTA Street|Ayton, Ontario N0G1C0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "1009 SUMMERVILLE Road|Gooderham, Ontario K0M1R0": [
+    "DSL"
+  ],
+  "218 BAPTIST CHURCH Road|Foxboro, Ontario K0K2B0": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "659 COTTINGHAM Road|Omemee, Ontario K0L2W0": [
+    "DSL"
+  ],
+  "1130 PORT CUNNINGTON Road|Dwight, Ontario P0A1H0": [
+    "DSL"
+  ],
+  "70 FIRE ROUTE 367 .|Kinmount, Ontario K0M2A0": [
+    "DSL"
+  ],
+  "1050 PAIGNTON HOUSE Road Unit# N248|Minett, Ontario P0B1G0": [
+    "DSL"
+  ],
+  "1050 PAIGNTON HOUSE Road Unit# #1125|Minett, Ontario P0B1G0": [
+    "DSL"
+  ],
+  "44 GROEGER Road|Huntsville, Ontario P1H2J4": [
+    "DSL",
+    "Fibre to the home",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "532 PETERSON Road|Maynooth, Ontario K0L2S0": [
+    "DSL"
+  ],
+  "1308 BARNUM LAKE Drive|Harcourt, Ontario K0L1X0": [
+    "DSL"
+  ],
+  "1021 BRUCE ROAD 9 .|South Bruce Peninsula, Ontario N0H2T0": [
+    "DSL"
+  ],
+  "243 WHYTES Road|Bancroft, Ontario K0L1G0": [
+    "DSL"
+  ],
+  "12918 COUNTY 503 Road|Highlands East, Ontario K0L2Y0": [
+    "DSL"
+  ],
+  "35 BRENNAN Circle|Huntsville, Ontario P1H2J2": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "18726 HIGHWAY 118 .|Tory Hill, Ontario K0L2Y0": [
+    "DSL"
+  ],
+  "240 BRITANNIA Road|Huntsville, Ontario P1H2J3": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "304 ISLAND B .|McKellar, Ontario P2A0B4": [
+    "DSL"
+  ],
+  "594320 HIGHWAY 59 Highway S|Oxford, Ontario N4S7V8": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "316015 HIGHWAY 6 .|Williamsford, Ontario N0H2V0": [
+    "DSL"
+  ],
+  "4071 Colebrook RD|Harrowsmith, Ontario K0H1V0": [
+    "Coaxial Cable",
+    "DSL",
+    "Fibre to the home"
+  ],
+  "45 DOWNS Road|Utterson, Ontario P1L0A7": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "2382 CONTAU LAKE Road|Gooderham, Ontario K0M1R0": [
+    "DSL"
+  ],
+  "738 HOOVER Road|Stirling, Ontario K0K3E0": [
+    "DSL"
+  ],
+  "555 ROSS Street|Paisley, Ontario N0G2N0": [
+    "Coaxial Cable",
+    "DSL",
+    "Fibre to the home"
+  ],
+  "1003 MATTHEWS Drive Unit# C5 12S #4|Windermere, Ontario P0B1P0": [
+    "DSL"
+  ],
+  "1003 MATTHEWS Drive Unit# C5 12S #1|Windermere, Ontario P0B1P0": [
+    "DSL"
+  ],
+  "1003 MATTHEWS Drive Unit# C5 12S #3|Windermere, Ontario P0B1P0": [
+    "DSL"
+  ],
+  "1003 MATTHEWS Drive Unit# C5 12S #2|Windermere, Ontario P0B1P0": [
+    "DSL"
+  ],
+  "9 LOCUST Lane|Curve Lake, Ontario K0L1R0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "2626 MEWBURN Road Unit# SUITE #1|Niagara Falls, Ontario L2J0G4": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "26770 HIGHWAY 62 SOUTH .|Bancroft, Ontario K0L1C0": [
+    "DSL"
+  ],
+  "0 ELSASSER Road|Christie, Ontario P2A2W8": [
+    "Coaxial Cable"
+  ],
+  "307 NORTH RUSAW Road|Apsley, Ontario K0L1A0": [
+    "DSL"
+  ],
+  "754 NEW CARLOW Road|Maple Leaf, Ontario K0L2R0": [
+    "DSL"
+  ],
+  "297 CLARE NEWHAMS Road|Havelock-Belmont-Methuen Twp, Ontario K0L1A0": [
+    "DSL"
+  ],
+  "8047 OLD HASTINGS Road|Gilmour, Ontario K0L1W0": [
+    "DSL"
+  ],
+  "2626 MEWBURN Road Unit# SUITE #2|Niagara Falls, Ontario L2J0G4": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "1093 CHOKE CHERRY Lane|Wilberforce, Ontario K0L3C0": [
+    "DSL"
+  ],
+  "630 Highway 137|Hill Island, Lansdowne, Ontario K0E1L0": [
+    "DSL"
+  ],
+  "9410 PERTH ROAD|Westport, Ontario K0G1X0": [
+    "DSL"
+  ],
+  "12543 HWY 41 Highway|Northbrook, Ontario K0H2G0": [
+    "DSL"
+  ],
+  "4015 Stage Coach RD|Harrowsmith, Ontario K0H2T0": [
+    "Coaxial Cable",
+    "DSL",
+    "Fibre to the home"
+  ],
+  "1050 PAIGNTON HOUSE Road Unit# S245|Minett, Ontario P0B1G0": [
+    "DSL"
+  ],
+  "475 GODERICH Street|Port Elgin, Ontario N0H2C4": [
+    "Coaxial Cable",
+    "DSL",
+    "Fibre to the home"
+  ],
+  "803149 PUDDICOMBE Lane|Chatsworth, Ontario N0H1G0": [
+    "DSL"
+  ],
+  "170 KENDON LANE Road|Coe Hill, Ontario N1A2W1": [
+    "DSL"
+  ],
+  "7747 15/16 NOTTAWASAGA Sideroad|Clearview, Ontario L0M1G0": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "1020 BRENHOLM Lane|Wilberforce, Ontario K0L3C0": [
+    "DSL"
+  ],
+  "793 COLBORNE Street E Unit# 501|Brantford, Ontario N3S7J3": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "4747 WALKERS Road|Adelaide Metcalfe (Twp), Ontario N0L1M0": [
+    "DSL"
+  ],
+  "3674 GORE Road|Thames Centre (Munic), Ontario N0L1G4": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1005 TORTOISE Drive|Wilberforce, Ontario K0L3C0": [
+    "DSL"
+  ],
+  "65 O'BRIEN Street|Marmora, Ontario K0K2M0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "699 SWEET Road|Marmora, Ontario K0K2M0": [
+    "DSL"
+  ],
+  "1145 CHELSEA Lane|Algonquin Highlands, Ontario K0M1J1": [
+    "DSL"
+  ],
+  "4 LEGACY Lane Unit# 203|Huntsville, Ontario P1H2R2": [
+    "DSL",
+    "Fibre to the home",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "525 THIRD Street|London, Ontario N5V2C1": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "1282 COUNTY ROAD 5 .|Frankford, Ontario K0K2C0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1843 SOUTH BAPTISTE LAKE Road|Bancroft, Ontario K0L1C0": [
+    "DSL"
+  ],
+  "CON 6 PT LT 15|Tweed, Ontario K0K3J0": [
+    "DSL"
+  ],
+  "PART 2 RICHARDSON POINT Lane|Hastings, Ontario K0K2C0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "LOT 42 SOUTH Drive|Eagle Lake, Ontario K0M1M0": [
+    "DSL"
+  ],
+  "PT 98 BAXTER Road|Trent Hills, Ontario K0L1Y0": [
+    "No Local Access"
+  ],
+  "LOT 25 WEST COURT Place|Haliburton, Ontario K0M1S0": [
+    "DSL"
+  ],
+  "PT 2 BRADSHAW Road|Seguin, Ontario P2A0B2": [
+    "Coaxial Cable"
+  ],
+  "0 CEDAR Lane|Frankford, Ontario K0K2C0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "0 PROSPECT LAKE Road|Bracebridge, Ontario P1L1X1": [
+    "DSL"
+  ],
+  "PARCEL B CONCESSION 1 .|Walkerton, Ontario N0G2V0": [
+    "Coaxial Cable",
+    "DSL",
+    "Fibre to the home"
+  ],
+  "PT LT 26 HIGHWAY 62 . S|Dungannon, Ontario K0L1C0": [
+    "DSL"
+  ],
+  "1172 BARKWAY Road|Gravenhurst, Ontario P1P1R3": [
+    "DSL"
+  ],
+  "168 TALL TREES Drive|Huntsville, Ontario P1H2T4": [
+    "DSL",
+    "Fibre to the home",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "LOT 2 PROGRESS Drive|Aylmer, Ontario N5H2B6": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "LOT 14 OSBORNE Court|Marmora and Lake, Ontario K0K2M0": [
+    "Coaxial Cable",
+    "DSL",
+    "Fibre to the home"
+  ],
+  "LOT 133 AMIK Trail|Haliburton, Ontario K0M1S0": [
+    "DSL"
+  ],
+  "61 FOREST PARK Road|Marmora, Ontario K0K2M0": [
+    "Coaxial Cable",
+    "DSL",
+    "Fibre to the home"
+  ],
+  "0 DEER LAKE Road|Laxton, Ontario K0M2B0": [
+    "DSL"
+  ],
+  "0 SOUTH SHORES Road|Trent Hills, Ontario K0L1L0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "502 127 Highway|Hastings Highlands, Ontario K0L2S0": [
+    "DSL"
+  ],
+  "0 COUNTY ROAD 41 .|Northbrook, Ontario K0K2G0": [
+    "DSL"
+  ],
+  "LOT 8 TRILLIUM Crossing|Lion's Head, Ontario N0H1W0": [
+    "DSL"
+  ],
+  "LOT 11 TRILLIUM Crossing|Lion's Head, Ontario N0H1W0": [
+    "DSL"
+  ],
+  "LOT 134 AMIK Trail|Haliburton, Ontario K0M1S0": [
+    "DSL"
+  ],
+  "LT 116 BASSHAUNT LAKE Road|Haliburton, Ontario K0M1S0": [
+    "DSL"
+  ],
+  ". COUNTY 23 Road|Grafton, Ontario K0K2G0": [
+    "DSL"
+  ],
+  "LT 10 SUGAR LAKE Road|Seguin, Ontario P2A0B6": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "1360 QUARRY Island|Honey Harbour, Ontario L0K1S0": [
+    "DSL"
+  ],
+  "0 CEDAR SHORES Drive|Trent Hills, Ontario K0L2Z0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "0 SARAFIANS Road|Limerick, Ontario K0L1W0": [
+    "DSL"
+  ],
+  "0 ROCKHAVEN Crescent|Marmora, Ontario K0K2M0": [
+    "Coaxial Cable",
+    "DSL",
+    "Fibre to the home"
+  ],
+  ". WIGAMOG Road|Haliburton, Ontario K0M1S0": [
+    "DSL"
+  ],
+  ". HIGHWAY 118 .|Haliburton, Ontario K0M1S0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "1011 MOES Road|Bracebridge, Ontario P1L1V4": [
+    "DSL"
+  ],
+  "LOT 8 TWIN Court|Marmora, Ontario K0K2M0": [
+    "Coaxial Cable",
+    "DSL",
+    "Fibre to the home"
+  ],
+  "2707 COOPER Road|Madoc, Ontario K0K2K0": [
+    "DSL"
+  ],
+  "0 IRONDALE Road|Gooderham, Ontario K0M1R0": [
+    "DSL"
+  ],
+  "0 OLD MUSKOKA  RD|Bracebridge, Ontario P1L1X4": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "W 1/2 LT 10 8 Concession|Havelock, Ontario K0L1Z0": [
+    "Coaxial Cable",
+    "DSL",
+    "Fibre to the home"
+  ],
+  "0 HIGWAY 28 EAST .|Bancroft, Ontario K0L1C0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "0 NEW CARLOW Road|Maple Leaf, Ontario K0L2R0": [
+    "DSL"
+  ],
+  "- 35 Highway|Minden, Ontario K0M2K0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "0 WILLIAMSPORT Road|Huntsville, Ontario P1H2J4": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "0 HORSESHOE LAKE Road|Seguin, Ontario P2A2W8": [
+    "Coaxial Cable"
+  ],
+  "1044 CANOPY LANE Road S|Algonquin Highlands, Ontario K0M1J2": [
+    "DSL"
+  ],
+  ". EAST Road|Minden, Ontario K0M2K0": [
+    "DSL"
+  ],
+  "0 CORONATION Drive|Burnt River, Ontario K0M1C0": [
+    "DSL"
+  ],
+  "57 VARTY LAKE Road|Camden East, Ontario K0K3N0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "0 WEST BAY Road|North Kawartha Twp, Ontario K0L1A0": [
+    "DSL"
+  ],
+  "0 TANNERY Road|Madoc, Ontario K0K2K0": [
+    "DSL"
+  ],
+  "69 ROCK LAKE Crescent|Bancroft, Ontario K0L1C0": [
+    "DSL"
+  ],
+  "13644B HWY 62 Road S|Madoc, Ontario K0K2M0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "- BLAIRHAMPTON Road|Minden Hills, Ontario K0M2K0": [
+    "DSL"
+  ],
+  "PT LT 35 NEIL MCGREGOR Road|Cramahe, Ontario K0K1S0": [
+    "DSL"
+  ],
+  "0 HIGHWAY 49 .|Sophiasburgh, Ontario K0K2T0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "0 REID Street|Kinmount, Ontario K0M2A0": [
+    "DSL"
+  ],
+  "8980 COUNTY ROAD 50 .|Havelock, Ontario K0L1Z0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "LOT 8 WHITNEY Road|Perry, Ontario P0A1J0": [
+    "DSL"
+  ],
+  "0 NORTH Drive|Eagle Lake, Ontario K0M1S0": [
+    "DSL"
+  ],
+  "34 ATKINSON Road|Madoc, Ontario K0K2K0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "34 ATKINSON RD|Madoc, Ontario K0K2K0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "00 MINNICOCK LAKE Road|Highlands East, Ontario K0L3C0": [
+    "DSL"
+  ],
+  "LT 16 THUNDER BEACH Road|Tiny, Ontario L9M0T4": [
+    "DSL"
+  ],
+  "PT LT 5-6 CONCESSION 8 Road W|Hastings, Ontario K0L1Y0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "0 COUNTY ROAD 5 .|Demorestville, Ontario K0K1W0": [
+    "DSL"
+  ],
+  "PT LT 16 BRADLEY Drive|Northern Bruce Peninsula, Ontario N0H1Z0": [
+    "DSL"
+  ],
+  "1723 MONCK Road|Ramara, Ontario L3V0P6": [
+    "DSL"
+  ],
+  "0 OLD MARMORA Road|Marmora, Ontario K0K2M0": [
+    "Coaxial Cable",
+    "DSL",
+    "Fibre to the home"
+  ],
+  "1062 SOUTH MULDREW LAKE Road|Gravenhurst, Ontario P0E1G0": [
+    "DSL"
+  ],
+  "0 HIGHWAY 35 . N|Coboconk, Ontario K0M1K0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "LOT 6 WHITNEY Road|Perry, Ontario P0A1J0": [
+    "DSL"
+  ],
+  "0 CENTRE Road|McKellar, Ontario P0G1C0": [
+    "DSL"
+  ],
+  "PART 2 STAHLS Road|Huntsville, Ontario P1H2J4": [
+    "DSL",
+    "Fibre to the home",
+    "Fibre to the home"
+  ],
+  "0 KOA CAMPGROUND Road|Marmora and Lake, Ontario K0K2M0": [
+    "DSL"
+  ],
+  "0 WILLIAMSPORT Road N|Huntsville, Ontario P1H2J4": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "PART 3 STAHLS Road|Huntsville, Ontario P1H2J4": [
+    "DSL",
+    "Fibre to the home",
+    "Fibre to the home"
+  ],
+  "2000 WINDERMERE Road|Utterson, Ontario P0B1M0": [
+    "DSL"
+  ],
+  "S 1/2 LT24 OLD HASTINGS Road|Limerick, Ontario K0L1C0": [
+    "DSL"
+  ],
+  "0 REDCAP BEACH Lane|Kirkfield, Ontario K0M2B0": [
+    "DSL"
+  ],
+  "PT LT 16 BRUCE ROAD 9 .|Northern Bruce Peninsula, Ontario N0H1W0": [
+    "DSL"
+  ],
+  "00 HICKEY HILL Road|Bancroft, Ontario K0L1C0": [
+    "DSL"
+  ],
+  "969 OLD MUSKOKA Road|Utterson, Ontario P0B1M0": [
+    "DSL",
+    "Fibre to the home",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "0 CONCESSION RD 8 W .|Hastings, Ontario K0L1Y0": [
+    "DSL"
+  ],
+  "0 PRENTISKOKA HEIGHTS Road|Minden Hills, Ontario K0M2K0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  "1555 COUNTY ROAD 504 .|North Kawartha Twp, Ontario K0L1A0": [
+    "DSL"
+  ],
+  "0 HIGHWAY 62 SOUTH .|Bannockburn, Ontario K0K2K0": [
+    "DSL"
+  ],
+  "9890 OPEONGO Road Unit# On|Barry's Bay, Ontario K0J2N0": [
+    "DSL"
+  ],
+  "2380 ASPDIN Road|Huntsville, Ontario P0B1M0": [
+    "DSL",
+    "Fibre to the home"
+  ],
+  ". MUSKOKA RIVER .|Bracebridge, Ontario P1L1X3": [
+    "DSL"
+  ],
+  "247 SHEBESHEKONG Road|Carling, Ontario P0G1G0": [
+    "DSL"
+  ],
+  "76 GLORY Road|Hastings Highlands, Ontario K0L1C0": [
+    "DSL"
+  ],
+  "0 MERKLEY Road|Gravenhurst, Ontario P1P1R3": [
+    "DSL"
+  ],
+  "LOT 29 MIMI Crescent|Annan, Ontario N0H1B0": [
+    "DSL"
+  ],
+  "PARCEL 5 PART LOT 26, CONCESSION 5 Road|South Bruce Peninsula, Ontario N0H2T0": [
+    "DSL"
+  ],
+  "PARCEL 4 PART LOT 26, CONCESSION 5 Road|South Bruce Peninsula, Ontario N0H2T0": [
+    "DSL"
+  ],
+  "019841 HIGHWAY 6 .|Georgian Bluffs, Ontario N0H2T0": [
+    "DSL"
+  ],
+  "955 BURR Road|Hillier, Ontario K0K1A0": [
+    "DSL"
+  ],
+  "25363 HWY 62 S. .|Bancroft, Ontario K0L1C0": [
+    "DSL"
+  ],
+  "1411 PORTAGE Road|Kirkfield, Ontario K0M2B0": [
+    "DSL",
+    "DSL"
+  ],
+  "PT LT 6 CON 8 .|Trent Hills, Ontario K0L1Y0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "0 SPENCE LAKE Drive|Bracebridge, Ontario P1L0A1": [
+    "DSL",
+    "Fibre to the home",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "0 CAPE HURD Road|Tobermory, Ontario N0H2R0": [
+    "DSL"
+  ],
+  "10 LAKEFOREST Drive|McDougall, Ontario P2A2W9": [
+    "DSL"
+  ],
+  "360 GAWLEY Road|Eldorado, Ontario K0K1Y0": [
+    "DSL"
+  ],
+  "3567 COUNTY ROAD 6 .|Douro-Dummer, Ontario K0L2H0": [
+    "DSL"
+  ],
+  "19 CARDINAL Road|Emily Twp, Ontario K0L2W0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "431 HIGHWAY 118 .|Faraday, Ontario K0L1C0": [
+    "DSL"
+  ],
+  "290 CROFTS Road|Marmora and Lake, Ontario K0K2M0": [
+    "DSL"
+  ],
+  "0 VIEWMOUNT Avenue|Campbellford, Ontario K0L1Z0": [
+    "Coaxial Cable",
+    "DSL"
+  ],
+  "0 ROSSEAU LAKE Road|Bent River, Ontario P0B1J0": [
+    "DSL"
+  ],
+  "0 GRAPHITE Road|Hastings Highlands, Ontario K0L2S0": [
+    "DSL"
+  ],
+  "0 SPIDER LAKE Lane|Huntsville, Ontario P0B1M0": [
+    "DSL",
+    "Fibre to the home",
+    "Coaxial Cable"
+  ],
+  "1 LAKE JOSEPH Road|Muskoka Lakes, Ontario P0B1J0": [
+    "No Local Access",
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "0 WALTER CHARMAN Drive|Stokes Bay, Ontario N0H2M0": [
+    "DSL"
+  ],
+  "46975 HARDING SMITH Lane|Central Elgin (Munic), Ontario N0L2H0": [
+    "DSL",
+    "Coaxial Cable"
+  ],
+  "7218 JONES BASELINE .|Mapleton, Ontario N0G1A0": [
+    "DSL"
+  ],
+  "591 HISCOCK SHORES Road|Carrying Place, Ontario K0K1L0": [
     "DSL",
     "Coaxial Cable"
   ]
